@@ -9,7 +9,7 @@
  *     Obeo - initial API and implementation
  */
 // URL of the feed that is to be converted. Can be either URL or absolute URI
-$feedURL = "http://www.bsiag.com/scout/?feed=rss2";
+$feedURL = "http://www.bsi-software.com/scout/?feed=rss2";
 
 // Limits the number of items that is to be displayed to the first n
 $limitItem = 5;
@@ -39,7 +39,7 @@ class RSS2HTML {
 		$result = "";
 		
 	 	//Get the feed
-		$xmlString = @file_get_contents("http://www.bsiag.com/scout/?feed=rss2", true);  		
+		$xmlString = @file_get_contents("http://www.bsi-software.com/scout/?feed=rss2", true);  		
 		if ($xmlString === FALSE) {
 			return "Error by reading the RSS feed";
 		}

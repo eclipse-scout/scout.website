@@ -72,6 +72,6 @@
 	$App->SetGoogleAnalyticsTrackingCode("UA-29181496-1");
 
 	# Define my own RSS feed!
-	$App->PageRSS = "http://www.bsiag.com/scout/?feed=rss2";
+	$App->PageRSS = "http://www.bsi-software.com/scout/?feed=rss2";
 	$App->PageRSSTitle = "Eclipse Scout Project Feed";
 ?>

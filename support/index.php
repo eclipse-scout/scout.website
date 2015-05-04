@@ -64,7 +64,7 @@
             <p>If you plan to prototype Eclipse Scout applications,
             ask <a href="<?php echo URL_BSI; ?>">BSI</a> for training and consulting to maximize your value.
             When your organization decides for Scout, you want to rely on the experience provided by our <a href="<?php echo URL_BSI_SCOUT; ?>">Scout experts at BSI</a>.
-            For further information please contact <a href="mailto:scout@bsiag.com">scout@bsiag.com</a>.
+            For further information please contact <a href="mailto:scout@bsi-software.com">scout@bsi-software.com</a>.
             </p>
         </div>
 	</div>

@@ -1,5 +1,5 @@
 <?php 
-$message_recepient = "scout@bsiag.com";
+$message_recepient = "scout@bsi-software.com";
 
 $error_msgs = array();
 $form_sent = false;

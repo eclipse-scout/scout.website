@@ -35,7 +35,7 @@ define("URL_SCREENCASTS", "http://wiki.eclipse.org/Scout/Overview/Screencasts");
 define("URL_SCREENCASTS_YOUTUBE", "http://www.youtube.com/eclipsescout");
 define("URL_SCREENCAST_LAST", "http://www.youtube.com/watch?v=SgbKrZHseTQ&list=PLM9RhoqzsT4Xvkf1lo4ry57JdneEGUJaC");
 define("URL_SLIDES", "http://wiki.eclipse.org/Scout/Overview/Slides");
-define("URL_BLOG", "http://www.bsiag.com/scout/");
+define("URL_BLOG", "http://www.bsi-software.com/scout/");
 define("URL_TWITTER", "http://twitter.com/eclipseScout");
 define("URL_SUMMARY", "http://projects.eclipse.org/projects/technology.scout");
 define("URL_ECLIPSE_DOWNLOAD", "http://www.eclipse.org/downloads");
@@ -52,8 +52,8 @@ define("URL_MAILING_LIST", "https://dev.eclipse.org/mailman/listinfo/scout-dev")
 define("URL_OHLOH", "http://www.ohloh.net/p/eclipsescout");
 define("URL_PLAN", "http://eclipse.org/projects/project-plan.php?projectid=technology.scout");
 
-define("URL_BSI", "http://www.bsiag.com/en/home.html");
-define("URL_BSI_SCOUT", "http://www.bsiag.com/en/technology/eclipse-scout.html");
+define("URL_BSI", "http://www.bsi-software.com/en/home.html");
+define("URL_BSI_SCOUT", "http://www.bsi-software.com/en/technology/eclipse-scout.html");
 /**
 internal links
 **/

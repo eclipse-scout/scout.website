@@ -26,7 +26,7 @@
 
 				<ul>
 					<li><a target="_blank" href="https://twitter.com/EclipseScout">Twitter</a></li>
-					<li><a target="_blank" href="http://www.bsiag.com/scout">Blog</a></li>
+					<li><a target="_blank" href="http://www.bsi-software.com/scout">Blog</a></li>
 				</ul>
 			</li>
 
@@ -36,7 +36,7 @@
 				<ul>
 					<li><a target="_blank" href="https://www.youtube.com/user/eclipsescout">Video Tutorials</a></li>
 					<li><a target="_blank" href="https://wiki.eclipse.org/Scout/Tutorial">Wiki Tutorials</a></li>
-					<li><a target="_blank" href="http://tools.bsiag.com/scoutbook/4.0/2014-10-13_22-06-54/html/book.html">Scout Book</a></li>
+					<li><a target="_blank" href="http://tools.bsi-software.com/scoutbook/4.0/2014-10-13_22-06-54/html/book.html">Scout Book</a></li>
 					<li><a target="_blank" href="https://wiki.eclipse.org/Scout">Wiki</a></li>
 				</ul>
 			</li>
@@ -56,7 +56,7 @@
 				<a href="#">Support</a>
 
 				<ul>
-					<li><a target="_blank" href="https://www.bsiag.com/en/technology/eclipse-scout.html">Professional Services</a></li>
+					<li><a target="_blank" href="https://www.bsi-software.com/en/technology/eclipse-scout.html">Professional Services</a></li>
 					<li><a href="#contact-us" class="slide-to-section">Contact us</a></li>
 				</ul>
 			</li>
@@ -86,7 +86,7 @@
 
 						<ul class="dropdown-menu" role="menu">
 							<li><a target="_blank" href="https://twitter.com/EclipseScout">Twitter</a></li>
-							<li><a target="_blank" href="http://www.bsiag.com/scout">Blog</a></li>
+							<li><a target="_blank" href="http://www.bsi-software.com/scout">Blog</a></li>
 						</ul>
 					</li>
 
@@ -96,7 +96,7 @@
 						<ul class="dropdown-menu" role="menu">
 							<li><a target="_blank" href="https://www.youtube.com/user/eclipsescout">Video Tutorials</a></li>
 							<li><a target="_blank" href="https://wiki.eclipse.org/Scout/Tutorial">Wiki Tutorials</a></li>
-							<li><a target="_blank" href="http://tools.bsiag.com/scoutbook/4.0/2014-10-13_22-06-54/html/book.html">Scout Book</a></li>
+							<li><a target="_blank" href="http://tools.bsi-software.com/scoutbook/4.0/2014-10-13_22-06-54/html/book.html">Scout Book</a></li>
 							<li><a target="_blank" href="https://wiki.eclipse.org/Scout">Wiki</a></li>
 						</ul>
 					</li>
@@ -116,7 +116,7 @@
 						<a href="#" >Support</a>
 
 						<ul class="dropdown-menu" role="menu">
-							<li><a target="_blank" href="https://www.bsiag.com/en/technology/eclipse-scout.html">Professional Services</a></li>
+							<li><a target="_blank" href="https://www.bsi-software.com/en/technology/eclipse-scout.html">Professional Services</a></li>
 							<li><a href="#contact-us" class="slide-to-section">Contact us</a></li>
 						</ul>
 					</li>
@@ -528,7 +528,7 @@
 										<p>We were convinced by Scout's architecture, the short training times and the many active Scout committers. </p>
 
 										<!-- re-enable once other testimonials are ready
-										<a href="http://www.bsiag.com/de/referenzen/unsere-kunden/detail/references/eclipse-scout-bei-agro.html" target="_blank">Read More</a>
+										<a href="https://www.bsi-software.com/en/customers/agro.html" target="_blank">Read More</a>
 										-->
 
 										<span class="blockquote-triangle"></span>
@@ -572,7 +572,7 @@
 										<p>Tools and frameworks, such as Eclipse Scout, can significantly boost the productivity of developers.</p>
 
 										<!--
-										<a href="http://www.bsiag.com/de/referenzen/unsere-kunden/detail/references/eclipse-scout-bei-agro.html">Read More</a>
+										<a href="https://www.bsi-software.com/en/customers/agro.html">Read More</a>
 										-->
 
 										<span class="blockquote-triangle"></span>
@@ -672,7 +672,7 @@
 				<a target="_blank" href="http://www.eclipse.org/legal" class="lnk-footer">Legal</a>
 
 				<a target="_blank" href="https://twitter.com/EclipseScout" class="btn-social"><i class="fa fa-twitter-square"></i></a>
-				<a target="_blank" href="http://www.bsiag.com/scout" class="btn-social"><i class="fa fa-rss-square"></i></a>
+				<a target="_blank" href="http://www.bsi-software.com/scout" class="btn-social"><i class="fa fa-rss-square"></i></a>
 				<a target="_blank" href="https://plus.google.com/103593107241008270960" class="btn-social"><i class="fa fa-google-plus-square"></i></a>
 				<a target="_blank" href="https://www.facebook.com/EclipseScout" class="btn-social"><i class="fa fa-facebook-square"></i></a>
 				<a target="_blank" href="https://www.youtube.com/user/eclipsescout" class="btn-social"><i class="fa fa-youtube-square"></i></a>

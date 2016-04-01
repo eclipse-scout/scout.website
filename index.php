@@ -36,7 +36,7 @@
 				<ul>
 					<li><a target="_blank" href="https://www.youtube.com/user/eclipsescout">Video Tutorials</a></li>
 					<li><a target="_blank" href="https://wiki.eclipse.org/Scout/Tutorial">Wiki Tutorials</a></li>
-					<li><a target="_blank" href="http://tools.bsi-software.com/scoutbook/4.0/2014-10-13_22-06-54/html/book.html">Scout Book</a></li>
+					<li><a target="_blank" href="https://eclipsescout.github.io/5.0/">Scout Book</a></li>
 					<li><a target="_blank" href="https://wiki.eclipse.org/Scout">Wiki</a></li>
 				</ul>
 			</li>
@@ -96,7 +96,7 @@
 						<ul class="dropdown-menu" role="menu">
 							<li><a target="_blank" href="https://www.youtube.com/user/eclipsescout">Video Tutorials</a></li>
 							<li><a target="_blank" href="https://wiki.eclipse.org/Scout/Tutorial">Wiki Tutorials</a></li>
-							<li><a target="_blank" href="http://tools.bsi-software.com/scoutbook/4.0/2014-10-13_22-06-54/html/book.html">Scout Book</a></li>
+							<li><a target="_blank" href="https://eclipsescout.github.io/5.0/">Scout Book</a></li>
 							<li><a target="_blank" href="https://wiki.eclipse.org/Scout">Wiki</a></li>
 						</ul>
 					</li>

@@ -1,17 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
- <head> 
-  <meta charset="UTF-8" /> 
-  <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge"><![endif]--> 
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" /> 
-  <meta name="generator" content="Asciidoctor 1.5.2" /> 
-  <meta name="author" content="Scout Team" /> 
-  <title>The Scout &quot;Hello World!&quot;</title> 
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400" /> 
-  <style>
+<head>
+<meta charset="UTF-8">
+<!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge"><![endif]-->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="generator" content="Asciidoctor 1.5.4">
+<meta name="author" content="Scout Team">
+<title>The Scout "Hello World!"</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700">
+<style>
 /* Asciidoctor default stylesheet | MIT License | http://asciidoctor.org */
-/* Remove the comments around the @import statement below when using this as a custom stylesheet */
-/*@import "https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400";*/
+/* Remove comment around @import statement below when using as a custom stylesheet */
+/*@import "https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700";*/
 article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,summary{display:block}
 audio,canvas,video{display:inline-block}
 audio:not([controls]){display:none;height:0}
@@ -58,7 +58,6 @@ a:hover{cursor:pointer}
 img,object,embed{max-width:100%;height:auto}
 object,embed{height:100%}
 img{-ms-interpolation-mode:bicubic}
-#map_canvas img,#map_canvas embed,#map_canvas object,.map_canvas img,.map_canvas embed,.map_canvas object{max-width:none!important}
 .left{float:left!important}
 .right{float:right!important}
 .text-left{text-align:left!important}
@@ -66,10 +65,12 @@ img{-ms-interpolation-mode:bicubic}
 .text-center{text-align:center!important}
 .text-justify{text-align:justify!important}
 .hide{display:none}
-.antialiased,body{-webkit-font-smoothing:antialiased}
-img{display:inline-block;vertical-align:middle}
+body{-webkit-font-smoothing:antialiased}
+img,object,svg{display:inline-block;vertical-align:middle}
 textarea{height:auto;min-height:50px}
 select{width:100%}
+.center{margin-left:auto;margin-right:auto}
+.spread{width:100%}
 p.lead,.paragraph.lead>p,#preamble>.sectionbody>.paragraph:first-of-type p{font-size:1.21875em;line-height:1.6}
 .subheader,.admonitionblock td.content>.title,.audioblock>.title,.exampleblock>.title,.imageblock>.title,.listingblock>.title,.literalblock>.title,.stemblock>.title,.openblock>.title,.paragraph>.title,.quoteblock>.title,table.tableblock>.title,.verseblock>.title,.videoblock>.title,.dlist>.title,.olist>.title,.ulist>.title,.qlist>.title,.hdlist>.title{line-height:1.45;color:#7a2518;font-weight:400;margin-top:0;margin-bottom:.25em}
 div,dl,dt,dd,ul,ol,li,h1,h2,h3,#toctitle,.sidebarblock>.content>.title,h4,h5,h6,pre,form,p,blockquote,th,td{margin:0;padding:0;direction:ltr}
@@ -112,12 +113,14 @@ blockquote,blockquote p{line-height:1.6;color:rgba(0,0,0,.85)}
 h1{font-size:2.75em}
 h2{font-size:2.3125em}
 h3,#toctitle,.sidebarblock>.content>.title{font-size:1.6875em}
-h4{font-size:1.4375em}}table{background:#fff;margin-bottom:1.25em;border:solid 1px #dedede}
+h4{font-size:1.4375em}}
+table{background:#fff;margin-bottom:1.25em;border:solid 1px #dedede}
 table thead,table tfoot{background:#f7f8f7;font-weight:bold}
 table thead tr th,table thead tr td,table tfoot tr th,table tfoot tr td{padding:.5em .625em .625em;font-size:inherit;color:rgba(0,0,0,.8);text-align:left}
 table tr th,table tr td{padding:.5625em .625em;font-size:inherit;color:rgba(0,0,0,.8)}
 table tr.even,table tr.alt,table tr:nth-of-type(even){background:#f8f8f7}
 table thead tr th,table tfoot tr th,table tbody tr td,table tr td,table tfoot tr td{display:table-cell;line-height:1.6}
+body{tab-size:4}
 h1,h2,h3,#toctitle,.sidebarblock>.content>.title,h4,h5,h6{line-height:1.2;word-spacing:-.05em}
 h1 strong,h2 strong,h3 strong,#toctitle strong,.sidebarblock>.content>.title strong,h4 strong,h5 strong,h6 strong{font-weight:400}
 .clearfix:before,.clearfix:after,.float-group:before,.float-group:after{content:" ";display:table}
@@ -125,7 +128,7 @@ h1 strong,h2 strong,h3 strong,#toctitle strong,.sidebarblock>.content>.title str
 *:not(pre)>code{font-size:.9375em;font-style:normal!important;letter-spacing:0;padding:.1em .5ex;word-spacing:-.15em;background-color:#f7f7f8;-webkit-border-radius:4px;border-radius:4px;line-height:1.45;text-rendering:optimizeSpeed}
 pre,pre>code{line-height:1.45;color:rgba(0,0,0,.9);font-family:"Droid Sans Mono","DejaVu Sans Mono",monospace;font-weight:400;text-rendering:optimizeSpeed}
 .keyseq{color:rgba(51,51,51,.8)}
-kbd{display:inline-block;color:rgba(0,0,0,.8);font-size:.75em;line-height:1.4;background-color:#f7f7f7;border:1px solid #ccc;-webkit-border-radius:3px;border-radius:3px;-webkit-box-shadow:0 1px 0 rgba(0,0,0,.2),0 0 0 .1em white inset;box-shadow:0 1px 0 rgba(0,0,0,.2),0 0 0 .1em #fff inset;margin:-.15em .15em 0 .15em;padding:.2em .6em .2em .5em;vertical-align:middle;white-space:nowrap}
+kbd{font-family:"Droid Sans Mono","DejaVu Sans Mono",monospace;display:inline-block;color:rgba(0,0,0,.8);font-size:.65em;line-height:1.45;background-color:#f7f7f7;border:1px solid #ccc;-webkit-border-radius:3px;border-radius:3px;-webkit-box-shadow:0 1px 0 rgba(0,0,0,.2),0 0 0 .1em white inset;box-shadow:0 1px 0 rgba(0,0,0,.2),0 0 0 .1em #fff inset;margin:0 .15em;padding:.2em .5em;vertical-align:middle;position:relative;top:-.1em;white-space:nowrap}
 .keyseq kbd:first-child{margin-left:0}
 .keyseq kbd:last-child{margin-right:0}
 .menuseq,.menu{color:rgba(0,0,0,.8)}
@@ -156,29 +159,33 @@ p a>code:hover{color:rgba(0,0,0,.9)}
 #toc ul.sectlevel0>li>a{font-style:italic}
 #toc ul.sectlevel0 ul.sectlevel1{margin:.5em 0}
 #toc ul{font-family:"Open Sans","DejaVu Sans",sans-serif;list-style-type:none}
+#toc li{line-height:1.3334;margin-top:.3334em}
 #toc a{text-decoration:none}
 #toc a:active{text-decoration:underline}
 #toctitle{color:#7a2518;font-size:1.2em}
 @media only screen and (min-width:768px){#toctitle{font-size:1.375em}
 body.toc2{padding-left:15em;padding-right:0}
 #toc.toc2{margin-top:0!important;background-color:#f8f8f7;position:fixed;width:15em;left:0;top:0;border-right:1px solid #efefed;border-top-width:0!important;border-bottom-width:0!important;z-index:1000;padding:1.25em 1em;height:100%;overflow:auto}
-#toc.toc2 #toctitle{margin-top:0;font-size:1.2em}
+#toc.toc2 #toctitle{margin-top:0;margin-bottom:.8rem;font-size:1.2em}
 #toc.toc2>ul{font-size:.9em;margin-bottom:0}
 #toc.toc2 ul ul{margin-left:0;padding-left:1em}
 #toc.toc2 ul.sectlevel0 ul.sectlevel1{padding-left:0;margin-top:.5em;margin-bottom:.5em}
 body.toc2.toc-right{padding-left:0;padding-right:15em}
-body.toc2.toc-right #toc.toc2{border-right-width:0;border-left:1px solid #efefed;left:auto;right:0}}@media only screen and (min-width:1280px){body.toc2{padding-left:20em;padding-right:0}
+body.toc2.toc-right #toc.toc2{border-right-width:0;border-left:1px solid #efefed;left:auto;right:0}}
+@media only screen and (min-width:1280px){body.toc2{padding-left:20em;padding-right:0}
 #toc.toc2{width:20em}
 #toc.toc2 #toctitle{font-size:1.375em}
 #toc.toc2>ul{font-size:.95em}
 #toc.toc2 ul ul{padding-left:1.25em}
-body.toc2.toc-right{padding-left:0;padding-right:20em}}#content #toc{border-style:solid;border-width:1px;border-color:#e0e0dc;margin-bottom:1.25em;padding:1.25em;background:#f8f8f7;-webkit-border-radius:4px;border-radius:4px}
+body.toc2.toc-right{padding-left:0;padding-right:20em}}
+#content #toc{border-style:solid;border-width:1px;border-color:#e0e0dc;margin-bottom:1.25em;padding:1.25em;background:#f8f8f7;-webkit-border-radius:4px;border-radius:4px}
 #content #toc>:first-child{margin-top:0}
 #content #toc>:last-child{margin-bottom:0}
 #footer{max-width:100%;background-color:rgba(0,0,0,.8);padding:1.25em}
 #footer-text{color:rgba(255,255,255,.8);line-height:1.44}
 .sect1{padding-bottom:.625em}
-@media only screen and (min-width:768px){.sect1{padding-bottom:1.25em}}.sect1+.sect1{border-top:1px solid #efefed}
+@media only screen and (min-width:768px){.sect1{padding-bottom:1.25em}}
+.sect1+.sect1{border-top:1px solid #efefed}
 #content h1>a.anchor,h2>a.anchor,h3>a.anchor,#toctitle>a.anchor,.sidebarblock>.content>.title>a.anchor,h4>a.anchor,h5>a.anchor,h6>a.anchor{position:absolute;z-index:1001;width:1.5ex;margin-left:-1.5ex;display:block;text-decoration:none!important;visibility:hidden;text-align:center;font-weight:400}
 #content h1>a.anchor:before,h2>a.anchor:before,h3>a.anchor:before,#toctitle>a.anchor:before,.sidebarblock>.content>.title>a.anchor:before,h4>a.anchor:before,h5>a.anchor:before,h6>a.anchor:before{content:"\00A7";font-size:.85em;display:block;padding-top:.1em}
 #content h1:hover>a.anchor,#content h1>a.anchor:hover,h2:hover>a.anchor,h2>a.anchor:hover,h3:hover>a.anchor,#toctitle:hover>a.anchor,.sidebarblock>.content>.title:hover>a.anchor,h3>a.anchor:hover,#toctitle>a.anchor:hover,.sidebarblock>.content>.title>a.anchor:hover,h4:hover>a.anchor,h4>a.anchor:hover,h5:hover>a.anchor,h5>a.anchor:hover,h6:hover>a.anchor,h6>a.anchor:hover{visibility:visible}
@@ -207,7 +214,9 @@ table.tableblock #preamble>.sectionbody>.paragraph:first-of-type p{font-size:inh
 .sidebarblock .literalblock pre,.sidebarblock .listingblock pre:not(.highlight),.sidebarblock .listingblock pre[class="highlight"],.sidebarblock .listingblock pre[class^="highlight "],.sidebarblock .listingblock pre.CodeRay,.sidebarblock .listingblock pre.prettyprint{background:#f2f1f1}
 .literalblock pre,.literalblock pre[class],.listingblock pre,.listingblock pre[class]{-webkit-border-radius:4px;border-radius:4px;word-wrap:break-word;padding:1em;font-size:.8125em}
 .literalblock pre.nowrap,.literalblock pre[class].nowrap,.listingblock pre.nowrap,.listingblock pre[class].nowrap{overflow-x:auto;white-space:pre;word-wrap:normal}
-@media only screen and (min-width:768px){.literalblock pre,.literalblock pre[class],.listingblock pre,.listingblock pre[class]{font-size:.90625em}}@media only screen and (min-width:1280px){.literalblock pre,.literalblock pre[class],.listingblock pre,.listingblock pre[class]{font-size:1em}}.literalblock.output pre{color:#f7f7f8;background-color:rgba(0,0,0,.9)}
+@media only screen and (min-width:768px){.literalblock pre,.literalblock pre[class],.listingblock pre,.listingblock pre[class]{font-size:.90625em}}
+@media only screen and (min-width:1280px){.literalblock pre,.literalblock pre[class],.listingblock pre,.listingblock pre[class]{font-size:1em}}
+.literalblock.output pre{color:#f7f7f8;background-color:rgba(0,0,0,.9)}
 .listingblock pre.highlightjs{padding:0}
 .listingblock pre.highlightjs>code{padding:1em;-webkit-border-radius:4px;border-radius:4px}
 .listingblock pre.prettyprint{border-width:0}
@@ -217,7 +226,7 @@ table.tableblock #preamble>.sectionbody>.paragraph:first-of-type p{font-size:inh
 .listingblock.terminal pre .command:before{content:attr(data-prompt);padding-right:.5em;color:#999}
 .listingblock.terminal pre .command:not([data-prompt]):before{content:"$"}
 table.pyhltable{border-collapse:separate;border:0;margin-bottom:0;background:none}
-table.pyhltable td{vertical-align:top;padding-top:0;padding-bottom:0}
+table.pyhltable td{vertical-align:top;padding-top:0;padding-bottom:0;line-height:1.45}
 table.pyhltable td.code{padding-left:.75em;padding-right:0}
 pre.pygments .lineno,table.pyhltable td:not(.code){color:#999;padding-left:0;padding-right:.5em;border-right:1px solid #ddddd8}
 pre.pygments .lineno{display:inline-block;margin-right:.25em}
@@ -238,13 +247,12 @@ table.pyhltable .linenodiv{background:none!important;padding-right:0!important}
 .verseblock .attribution{margin-top:1.25rem;margin-left:.5ex}
 .quoteblock .attribution,.verseblock .attribution{font-size:.9375em;line-height:1.45;font-style:italic}
 .quoteblock .attribution br,.verseblock .attribution br{display:none}
-.quoteblock .attribution cite,.verseblock .attribution cite{display:block;letter-spacing:-.05em;color:rgba(0,0,0,.6)}
+.quoteblock .attribution cite,.verseblock .attribution cite{display:block;letter-spacing:-.025em;color:rgba(0,0,0,.6)}
 .quoteblock.abstract{margin:0 0 1.25em 0;display:block}
 .quoteblock.abstract blockquote,.quoteblock.abstract blockquote p{text-align:left;word-spacing:0}
 .quoteblock.abstract blockquote:before,.quoteblock.abstract blockquote p:first-of-type:before{display:none}
 table.tableblock{max-width:100%;border-collapse:separate}
 table.tableblock td>.paragraph:last-child p>p:last-child,table.tableblock th>p:last-child,table.tableblock td>p:last-child{margin-bottom:0}
-table.spread{width:100%}
 table.tableblock,th.tableblock,td.tableblock{border:0 solid #dedede}
 table.grid-all th.tableblock,table.grid-all td.tableblock{border-width:0 1px 1px 0}
 table.grid-all tfoot>tr>th.tableblock,table.grid-all tfoot>tr>td.tableblock{border-width:1px 1px 0 0}
@@ -290,8 +298,8 @@ ol.upperroman{list-style-type:upper-roman}
 ol.lowergreek{list-style-type:lower-greek}
 .hdlist>table,.colist>table{border:0;background:none}
 .hdlist>table>tbody>tr,.colist>table>tbody>tr{background:none}
-td.hdlist1{padding-right:.75em;font-weight:bold}
-td.hdlist1,td.hdlist2{vertical-align:top}
+td.hdlist1,td.hdlist2{vertical-align:top;padding:0 .625em}
+td.hdlist1{font-weight:bold;padding-bottom:1.25em}
 .literalblock+.colist,.listingblock+.colist{margin-top:-.5em}
 .colist>table tr>td:first-of-type{padding:0 .75em;line-height:1}
 .colist>table tr>td:last-of-type{padding:.25em 0}
@@ -304,13 +312,14 @@ td.hdlist1,td.hdlist2{vertical-align:top}
 .image.left,.image.right{margin-top:.25em;margin-bottom:.25em;display:inline-block;line-height:0}
 .image.left{margin-right:.625em}
 .image.right{margin-left:.625em}
-a.image{text-decoration:none}
-span.footnote,span.footnoteref{vertical-align:super;font-size:.875em}
-span.footnote a,span.footnoteref a{text-decoration:none}
-span.footnote a:active,span.footnoteref a:active{text-decoration:underline}
+a.image{text-decoration:none;display:inline-block}
+a.image object{pointer-events:none}
+sup.footnote,sup.footnoteref{font-size:.875em;position:static;vertical-align:super}
+sup.footnote a,sup.footnoteref a{text-decoration:none}
+sup.footnote a:active,sup.footnoteref a:active{text-decoration:underline}
 #footnotes{padding-top:.75em;padding-bottom:.75em;margin-bottom:.625em}
 #footnotes hr{width:20%;min-width:6.25em;margin:-.25em 0 .75em 0;border-width:1px 0 0 0}
-#footnotes .footnote{padding:0 .375em;line-height:1.3;font-size:.875em;margin-left:1.2em;text-indent:-1.2em;margin-bottom:.2em}
+#footnotes .footnote{padding:0 .375em 0 .225em;line-height:1.3334;font-size:.875em;margin-left:1.2em;text-indent:-1.05em;margin-bottom:.2em}
 #footnotes .footnote a:first-of-type{font-weight:bold;text-decoration:none}
 #footnotes .footnote:last-of-type{margin-bottom:0}
 #content #footnotes{margin-top:-.625em;margin-bottom:0;padding:.75em 0}
@@ -368,11 +377,10 @@ span.icon>.fa{cursor:default}
 pre .conum[data-value]{position:relative;top:-.125em}
 b.conum *{color:inherit!important}
 .conum:not([data-value]):empty{display:none}
-h1,h2{letter-spacing:-.01em}
-dt,th.tableblock,td.content{text-rendering:optimizeLegibility}
-p,td.content{letter-spacing:-.01em}
-p strong,td.content strong{letter-spacing:-.005em}
-p,blockquote,dt,td.content{font-size:1.0625rem}
+dt,th.tableblock,td.content,div.footnote{text-rendering:optimizeLegibility}
+h1,h2,p,td.content,span.alt{letter-spacing:-.01em}
+p strong,td.content strong,div.footnote strong{letter-spacing:-.005em}
+p,blockquote,dt,td.content,span.alt{font-size:1.0625rem}
 p{margin-bottom:1.25rem}
 .sidebarblock p,.sidebarblock dt,.sidebarblock td.content,p.tableblock{font-size:1em}
 .exampleblock>.content{background-color:#fffef7;border-color:#e0e0dc;-webkit-box-shadow:0 1px 4px #e0e0dc;box-shadow:0 1px 4px #e0e0dc}
@@ -383,9 +391,9 @@ a{color:inherit!important;text-decoration:underline!important}
 a.bare,a[href^="#"],a[href^="mailto:"]{text-decoration:none!important}
 a[href^="http:"]:not(.bare):after,a[href^="https:"]:not(.bare):after{content:"(" attr(href) ")";display:inline-block;font-size:.875em;padding-left:.25em}
 abbr[title]:after{content:" (" attr(title) ")"}
-pre,blockquote,tr,img{page-break-inside:avoid}
+pre,blockquote,tr,img,object,svg{page-break-inside:avoid}
 thead{display:table-header-group}
-img{max-width:100%!important}
+svg{max-width:100%}
 p,blockquote,dt,td.content{font-size:1em;orphans:3;widows:3}
 h2,h3,#toctitle,.sidebarblock>.content>.title{page-break-after:avoid}
 #toc,.sidebarblock,.exampleblock>.content{background:none!important}
@@ -408,16 +416,16 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 .print-only{display:block!important}
 .hide-for-print{display:none!important}
 .show-for-print{display:inherit!important}}
-</style> 
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.2.0/css/font-awesome.min.css" /> 
-  <style>
+</style>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
+<style>
 /* Stylesheet for CodeRay to match GitHub theme | MIT License | http://foundation.zurb.com */
 /*pre.CodeRay {background-color:#f7f7f8;}*/
 .CodeRay .line-numbers{border-right:1px solid #d8d8d8;padding:0 0.5em 0 .25em}
 .CodeRay span.line-numbers{display:inline-block;margin-right:.5em;color:rgba(0,0,0,.3)}
-.CodeRay .line-numbers strong{font-weight: normal}
+.CodeRay .line-numbers strong{color:rgba(0,0,0,.4)}
 table.CodeRay{border-collapse:separate;border-spacing:0;margin-bottom:0;border:0;background:none}
-table.CodeRay td{vertical-align: top}
+table.CodeRay td{vertical-align: top;line-height:1.45}
 table.CodeRay td.line-numbers{text-align:right}
 table.CodeRay td.line-numbers>pre{padding:0;color:rgba(0,0,0,.3)}
 table.CodeRay td.code{padding:0 0 0 .5em}
@@ -452,7 +460,7 @@ table.CodeRay td.code>pre{padding:0}
 .CodeRay .hex{color:#058}
 .CodeRay .integer,.CodeRay .float{color:#099}
 .CodeRay .include{color:#555}
-.CodeRay .inline{color:#00}
+.CodeRay .inline{color:#000}
 .CodeRay .inline .inline{background:#ccc}
 .CodeRay .inline .inline .inline{background:#bbb}
 .CodeRay .inline .inline-delimiter{color:#d14}
@@ -500,303 +508,183 @@ table.CodeRay td.code>pre{padding:0}
 .CodeRay .delete .delete{color:#800}
 .CodeRay .change .change{color:#66f}
 .CodeRay .head .head{color:#f4f}
-</style> 
- </head> 
- <body class="article"> 
-  <div id="header"> 
-   <h1>The Scout &quot;Hello World!&quot;</h1> 
-   <div class="details"> 
-    <span id="author" class="author">Scout Team</span>
-    <br /> 
-    <span id="email" class="email"><a href="mailto:scout@bsi-software.com">scout@bsi-software.com</a></span>
-    <br /> 
-    <span id="revnumber">version 4.0.200-SNAPSHOT</span> 
-   </div> 
-  </div> 
-  <div id="content"> 
-   <div id="preamble"> 
-    <div class="sectionbody"> 
-     <div class="paragraph"> 
-      <p>After installing the Eclipse Scout package you are now ready to implement your first Scout application.</p> 
-     </div> 
-    </div> 
-   </div> 
-   <div class="sect1"> 
-    <h2 id="create-a-scout-project"><a class="anchor" href="#create-a-scout-project"></a>Create a Scout Project</h2> 
-    <div class="sectionbody"> 
-     <div class="paragraph"> 
-      <p>Start your Eclipse IDE and select an empty directory for your workspace. This workspace directory will then hold all the project code for the &#x201c;Hello World&#x201d; application. Once the Eclipse IDE is running it will show the Scout perspective with the Scout Explorer view and an empty Scout Object Properties view. To create a new Scout project select the <span class="menu">New Scout Project&#x2026;&#x200b;</span> context menu as shown in <a href="#img-sdk_create_new_scout_project">Figure 1</a>.</p> 
-     </div> 
-     <div id="img-sdk_create_new_scout_project" class="imageblock"> 
-      <div class="content"> 
-       <img src="images/sdk_create_new_scout_project.png" alt="sdk create new scout project" /> 
-      </div> 
-      <div class="title">
-       Figure 1. Create a new Scout project using the Scout SDK perspective.
-      </div> 
-     </div> 
-     <div class="paragraph"> 
-      <p>In the <em class="wizard">New Scout Project</em> wizard enter a name for your Scout project. As we are creating a &#x201c;Hello World&#x201d; application, use <span class="java">org.eclipsescout.helloworld</span> for the <em class="field">Project Name</em> field according to <a href="#img-sdk_new_project_wizard">Figure 2</a>. Then, click the <b class="button">Finish</b> button to let the Scout SDK create the initial project code for you.</p> 
-     </div> 
-     <div id="img-sdk_new_project_wizard" class="imageblock"> 
-      <div class="content"> 
-       <img src="images/sdk_new_project_2.png" alt="sdk new project 2" /> 
-      </div> 
-      <div class="title">
-       Figure 2. The new Scout project wizard.
-      </div> 
-     </div> 
-     <div class="paragraph"> 
-      <p>Once the initial project code is built, the Scout SDK displays the application model in the <em>Scout Explorer</em> as shown in <a href="#img-sdk_initial_helloworld_project">Figure 3</a>. This model is visually presented as a tree structure covering both the client and the server part of the application. The Scout Explorer view on the left hand side displays the top level elements of the complete Scout application. Under the orange node the Scout client components are listed. Components that are needed in both the Scout client and the Scout server are collected under the green node. And the Scout server components are listed below the blue node in the Scout Explorer view.</p> 
-     </div> 
-     <div id="img-sdk_initial_helloworld_project" class="imageblock"> 
-      <div class="content"> 
-       <img src="images/sdk_initial_helloworld_project.png" alt="sdk initial helloworld project" /> 
-      </div> 
-      <div class="title">
-       Figure 3. The Scout SDK showing the tree representation of our &#x201c;Hello World&#x201d; application in the Scout Explorer. The Scout Object Properties contain the product launchers for the server and the available clients.
-      </div> 
-     </div> 
-    </div> 
-   </div> 
-   <div class="sect1"> 
-    <h2 id="run-the-application"><a class="anchor" href="#run-the-application"></a>Run the Application</h2> 
-    <div class="sectionbody"> 
-     <div class="paragraph"> 
-      <p>After the initial project creation step we can start the Scout application for the first time. For this, we switch to the Scout Explorer view and select the root node <span class="java">org.eclipse.scout.helloworld</span>. This then loads the corresponding controls and the <em>Product Launchers section</em> into the <em>Scout Object Properties</em> view as shown in <a href="#img-sdk_initial_helloworld_project">Figure 3</a>.</p> 
-     </div> 
-     <div id="img-start_client" class="imageblock"> 
-      <div class="content"> 
-       <img src="images/sdk_start_client_product.png" alt="sdk start client product" /> 
-      </div> 
-      <div class="title">
-       Figure 4. Starting the Hello World application in the Scout SDK using the provided product launcher. Make sure to start the server before starting any client product.
-      </div> 
-     </div> 
-     <div class="paragraph"> 
-      <p>In the product launcher section of the Scout Object Properties view four launcher boxes are available. One launcher box for the Scout server product, and three launchers for the different client products. Each launcher box provides a link to the corresponding configuration and product definition files, as well as the launcher icons to start and stop the corresponding product. The green <em class="icon">Circle</em> icon starts the product in normal mode. The <em class="icon">Bug</em> icon just below, starts a product in debug mode. To terminate a running product, the red <em class="icon">Square</em> icon is provided.</p> 
-     </div> 
-     <div class="paragraph"> 
-      <p>Before any of the client products is started, we need to start the server product using the green circle or the bug launcher icon. During startup of the Scout server you should see console output similar to the one shown on the right hand side of <a href="#img-start_client">Figure 4</a>.</p> 
-     </div> 
-     <div class="paragraph"> 
-      <p>Once the server is running, you may start the RAP client as shown in <a href="#img-start_client">Figure 4</a>. To start the Swing client, or the SWT client use the corresponding green <em class="icon">Circle</em> icon or <em class="icon">Bug</em> icon. And with a running RAP client, the Scout client can be opened in a web browser by clicking on the provided <em class="link">Automatic Device Dispatch</em> link.</p> 
-     </div> 
-     <div id="img-helloworld_empty" class="imageblock"> 
-      <div class="content"> 
-       <img src="images/hellworld_empty_rap.png" alt="hellworld empty rap" /> 
-      </div> 
-     </div> 
-     <div class="imageblock"> 
-      <div class="content"> 
-       <img src="images/hellworld_empty_swing.png" alt="hellworld empty swing" /> 
-      </div> 
-     </div> 
-     <div class="imageblock"> 
-      <div class="content"> 
-       <img src="images/hellworld_empty_swt.png" alt="hellworld empty swt" /> 
-      </div> 
-      <div class="title">
-       Figure 5. Running the three client applications. Each client displays an empty desktop form. The RAP client, the Swing client, and the SWT client
-      </div> 
-     </div> 
-     <div class="paragraph"> 
-      <p>Having started the Scout server and all client products, the running client applications should look as shown in <a href="#img-helloworld_empty">Figure 5</a>.</p> 
-     </div> 
-    </div> 
-   </div> 
-   <div class="sect1"> 
-    <h2 id="add-the-user-interface-widgets"><a class="anchor" href="#add-the-user-interface-widgets"></a>Add the User Interface Widgets</h2> 
-    <div class="sectionbody"> 
-     <div class="paragraph"> 
-      <p>The project creation step has created a Scout client that displays an empty desktop form. We will now add widgets to the client&#x2019;s desktop form that will later display the &#x201c;Hello World!&#x201d; message.</p> 
-     </div> 
-     <div class="paragraph"> 
-      <p>To add any widgets to the desktop form, navigate to the <em class="element">DesktopForm</em> in the Scout Explorer. For this, click on the orange client node in the Scout Explorer view. Then, expand the <em class="element">Forms</em> folder by clicking on the small triangle icon, and further expand the <em class="element">DesktopForm</em>. As a result, the <em class="element">MainBox</em> element becomes visible below the desktop form as shown in <a href="#img-new_field_context_menu">Figure 6</a>. With a click of the right mouse button over the <em class="element">MainBox</em>, the available context menus are displayed. To start the form field wizard select the <span class="menu">New Form Field &#x2026;&#x200b;</span> menu.</p> 
-     </div> 
-     <div id="img-new_field_context_menu" class="imageblock"> 
-      <div class="content"> 
-       <img src="images/sdk_new_field_wizard_menu.png" alt="sdk new field wizard menu" /> 
-      </div> 
-      <div class="title">
-       Figure 6. Using the 
-       <span class="menu">New Form Field &#x2026;&#x200b;</span> menu to start the form field wizard provided by the Scout SDK.
-      </div> 
-     </div> 
-     <div class="paragraph"> 
-      <p>In the first step of the form field wizard shown on in <a href="#img-helloworld_groupboxfield">Figure 7</a> choose <span class="java">GroupBox</span> as the form field type and click on the <b class="button">Next</b> button. In the second wizard step, enter &#x2018;Desktop&#x2019; into the <em class="field">Class Name</em> field before you close the wizard with the <b class="button">Finish</b> button. The Scout SDK will then add the necessary Java code for the <span class="java">DesktopBox</span> in the background.</p> 
-     </div> 
-     <div id="img-helloworld_groupboxfield" class="imageblock"> 
-      <div class="content"> 
-       <img src="images/sdk_new_field_groupbox_1.png" alt="sdk new field groupbox 1" /> 
-      </div> 
-     </div> 
-     <div class="imageblock"> 
-      <div class="content"> 
-       <img src="images/sdk_new_field_groupbox_2.png" alt="sdk new field groupbox 2" /> 
-      </div> 
-      <div class="title">
-       Figure 7. Adding the 
-       <em>DesktopBox</em> field with the Scout SDK form field wizard.
-      </div> 
-     </div> 
-     <div class="paragraph"> 
-      <p>We can now add the text field widget to the group box just created. To do this, expand the <em class="element">MainBox</em> in the Scout Explorer view to access the newly created <em class="element">DesktopBox</em> element. On the <em class="element">DesktopBox</em> use the <span class="menu">New Form Field &#x2026;&#x200b;</span> menu again. In the first wizard step, select <em class="element">StringField</em> as the form field type according to <a href="#img-helloworld_stringfield">Figure 8</a>. To select the <em class="element">StringField</em> type you can either scroll down the list of available types or enter &#x201c;st&#x201d; into the field above the field type list. In the second wizard step, enter &#x2018;Message&#x2019; into the <em class="field">Label</em> field. As we do not yet have the text &#x2018;Message&#x2019; available in our &#x201c;Hello World&#x201d; application the wizard prompts the user with the proposal <code>New Translated Text &#x2026;&#x200b;</code>.</p> 
-     </div> 
-     <div id="img-helloworld_stringfield" class="imageblock"> 
-      <div class="content"> 
-       <img src="images/sdk_new_field_stringfield_1.png" alt="sdk new field stringfield 1" /> 
-      </div> 
-     </div> 
-     <div class="imageblock"> 
-      <div class="content"> 
-       <img src="images/sdk_new_field_stringfield_2.png" alt="sdk new field stringfield 2" /> 
-      </div> 
-      <div class="title">
-       Figure 8. Adding a 
-       <em>StringField</em> and providing a new translation entry.
-      </div> 
-     </div> 
-     <div class="paragraph"> 
-      <p>With a double click on this option a new text entry can be added to the application as shown in <a href="#img-helloworld_text_entry">Figure 9</a>. Once an initial translation for the message label is provided, close the translation dialog with the <b class="button">Ok</b> button. Finally, close the form field wizard using the <b class="button">Finish</b> button.</p> 
-     </div> 
-     <div id="img-helloworld_text_entry" class="imageblock"> 
-      <div class="content"> 
-       <img src="images/sdk_new_text_entry.png" alt="sdk new text entry" /> 
-      </div> 
-      <div class="title">
-       Figure 9. Adding a new translation entry.
-      </div> 
-     </div> 
-     <div class="paragraph"> 
-      <p>By expanding the <em class="element">DesktopBox</em> element in the Scout Explorer, the new message field becomes visible. Now, double click on the message field element to load the corresponding Java code into an editor and displays the message field&#x2019;s properties in the Scout Object Properties as shown in <a href="#img-helloworld_messagefield">Figure 10</a>. This is a good moment to compare your status with this screenshot. Make sure that both the Java code and the project structure in the Scout Explorer look as shown in <a href="#img-helloworld_messagefield">Figure 10</a>.</p> 
-     </div> 
-     <div id="img-helloworld_messagefield" class="imageblock"> 
-      <div class="content"> 
-       <img src="images/sdk_helloworld_messagefield.png" alt="sdk helloworld messagefield" /> 
-      </div> 
-      <div class="title">
-       Figure 10. Scout SDK showing the 
-       <em>MessageField</em>
-      </div> 
-     </div> 
-     <div class="paragraph"> 
-      <p>Having verified your status of the &#x201c;Hello World&#x201d; application start the start the server and a client of the application as described in the previous section. The client applications will then display your message widget. However, the text widget is still empty, as we did not yet load any initial content into this field. This is the topic of the next section.</p> 
-     </div> 
-    </div> 
-   </div> 
-   <div class="sect1"> 
-    <h2 id="implement-the-server-service"><a class="anchor" href="#implement-the-server-service"></a>Implement the Server Service</h2> 
-    <div class="sectionbody"> 
-     <div class="paragraph"> 
-      <p>The responsibility of the Scout server in our &#x201c;Hello World&#x201d; application is to provide an initial text content for the message field in the client&#x2019;s user interface. We implement this behaviour in the <span class="java">load</span> method of the server&#x2019;s <span class="java">DesktopService</span>. An empty stub for the <span class="java">load</span> method of the <span class="java">DesktopService</span> service has already been created during the initial project creation step.</p> 
-     </div> 
-     <div class="paragraph"> 
-      <p>To navigate to the implementation of the desktop service in the Scout SDK, we first expand the blue top-level <em class="node">server</em> node in the Scout Explorer. Below the server node, we then expand the <em class="folder">Services</em> folder which shows the <em class="element">DesktopService</em> element. Expanding this <em class="element">DesktopService</em> node, the <span class="java">load</span> method becomes visible as shown in <a href="#img-helloworld_load_servicemethod">Figure 11</a>.</p> 
-     </div> 
-     <div id="img-helloworld_load_servicemethod" class="imageblock"> 
-      <div class="content"> 
-       <img src="images/sdk_server_desktopservice_load.png" alt="sdk server desktopservice load" /> 
-      </div> 
-      <div class="title">
-       Figure 11. The Scout Explorer showing the blue server node expanded with the 
-       <em class="folder">Services</em> folder. In this folder the 
-       <em class="element">load</em> method of 
-       <em class="element">DesktopService</em> is selected and its initial implementation is shown in the editor on the right side.
-      </div> 
-     </div> 
-     <div class="paragraph"> 
-      <p>The <span class="java">DesktopService</span> represents the server service corresponding to the <span class="java">DesktopForm</span> on the client side. This initial setup represents Scout&#x2019;s default where client forms and server services typically come in pairs. Whenever the client&#x2019;s user interface displays a form to the user, the client connects to the server and calls the <span class="java">load</span> method of the corresponding server service. We just need to add our business logic to the <span class="java">load</span> method of the server&#x2019;s <span class="java">DesktopService</span>.</p> 
-     </div> 
-     <div class="paragraph"> 
-      <p>According to the signature of the <span class="java">load</span> method, a <span class="java">formData</span> object is passed into this method that is then handed back in the return statement. To complete the implementation of the <span class="java">load</span> method it is sufficient to assign the text 'hello world!' to the message field part of the form data. The complete implementation of the <span class="java">load</span> method is provided below.</p> 
-     </div> 
-     <div class="listingblock"> 
-      <div class="content"> 
-       <pre class="CodeRay highlight"><code data-lang="java"><span class="annotation">@Override</span>
-<span class="directive">public</span> DesktopFormData load(DesktopFormData formData)
-  <span class="directive">throws</span> ProcessingException {
-    formData.getMessage().setValue(<span class="string"><span class="delimiter">&quot;</span><span class="content">Hello World!</span><span class="delimiter">&quot;</span></span>); <i class="conum" data-value="1"></i><b>(1)</b>
-    <span class="keyword">return</span> formData;
-}</code></pre> 
-      </div> 
-     </div> 
-     <div class="colist arabic"> 
-      <table> 
-       <tbody>
-        <tr> 
-         <td><i class="conum" data-value="1"></i><b>1</b></td> 
-         <td>assign a value to the value holder part of the FormData corresponding to the message field</td> 
-        </tr> 
-       </tbody>
-      </table> 
-     </div> 
-     <div class="paragraph"> 
-      <p>With this last element we have completed the Scout &#x201c;Hello World&#x201d; application.</p> 
-     </div> 
-    </div> 
-   </div> 
-   <div class="sect1"> 
-    <h2 id="run-the-final-application"><a class="anchor" href="#run-the-final-application"></a>Run the Final Application</h2> 
-    <div class="sectionbody"> 
-     <div class="paragraph"> 
-      <p>We are now ready to run the completed &#x201c;Hello World!&#x201d; application by first starting the server and then the clients. This results in running clients as shown in <a href="#img-helloworld_finished">Figure 12</a>. The mobile version of the client can be started from the Scout SDK by clicking on the <em class="link">Smartphone Devices</em> link in the product launchers section. Alternatively, manually change the applications URL from <span class="java">http://localhost:8082/web</span> to <span class="java">http://localhost:8082/mobile</span>.</p> 
-     </div> 
-     <div id="img-helloworld_finished" class="imageblock"> 
-      <div class="content"> 
-       <img src="images/helloworld_swt.png" alt="helloworld swt" /> 
-      </div> 
-     </div> 
-     <div class="imageblock"> 
-      <div class="content"> 
-       <img src="images/helloworld_web.png" alt="helloworld web" /> 
-      </div> 
-     </div> 
-     <div class="imageblock"> 
-      <div class="content"> 
-       <img src="images/helloworld_mobile.png" alt="helloworld mobile" /> 
-      </div> 
-      <div class="title">
-       Figure 12. Running the complete &#x201c;Hello World!&#x201d; application with an SWT client, as a web application and a mobile application.
-      </div> 
-     </div> 
-     <div class="paragraph"> 
-      <p>Congratulations, you just have implemented your first Scout client server application!</p> 
-     </div> 
-    </div> 
-   </div> 
-   <div class="sect1"> 
-    <h2 id="what-s-next"><a class="anchor" href="#what-s-next"></a>What&#x2019;s Next?</h2> 
-    <div class="sectionbody"> 
-     <div class="paragraph"> 
-      <p>Now that you have successfully created your first Scout application, you might want to learn more about Scout. To gain experience with Scout, you can follow more tutorials and start to read in the Scout books. If you prefer ''Learning by doing'' browse the available Wiki tutorials and go for the subset that matches your interests.</p> 
-     </div> 
-     <div class="paragraph"> 
-      <p><a href="http://wiki.eclipse.org/Scout/Tutorial" class="bare">http://wiki.eclipse.org/Scout/Tutorial</a></p> 
-     </div> 
-     <div class="paragraph"> 
-      <p>If you are interested in Scout&#x2019;s concepts, architecture and features you probably want to start reading. For this, we are writing the Scout books.</p> 
-     </div> 
-     <div class="paragraph"> 
-      <p><a href="http://wiki.eclipse.org/Scout/Book" class="bare">http://wiki.eclipse.org/Scout/Book</a></p> 
-     </div> 
-     <div class="paragraph"> 
-      <p>In case you should get stuck somewhere and need help, try to get answers by searching the web. And if despite reasonable efforts this approach does not help, contact us on the forum. Should you have solved issues on your own, please consider sharing your findings in the Scout forum as this can help other folks too.</p> 
-     </div> 
-     <div class="paragraph"> 
-      <p><a href="http://www.eclipse.org/forums/eclipse.scout" class="bare">http://www.eclipse.org/forums/eclipse.scout</a></p> 
-     </div> 
-     <div class="paragraph"> 
-      <p>We wish you all the best on your journey with Scout and hope to hear from you in the Scout forum.</p> 
-     </div> 
-    </div> 
-   </div> 
-  </div> 
-  <div id="footer"> 
-   <div id="footer-text">
-     Version 4.0.200-SNAPSHOT
-    <br /> Last updated 2015-05-04 07:28:19 CEST 
-   </div> 
-  </div>  
- </body>
+</style>
+</head>
+<body class="article">
+<div id="header">
+<h1>The Scout "Hello World!"</h1>
+<div class="details">
+<span id="author" class="author">Scout Team</span><br>
+<span id="email" class="email"><a href="mailto:scout@bsi-software.com">scout@bsi-software.com</a></span><br>
+<span id="revnumber">version 6.0</span>
+</div>
+</div>
+<div id="content">
+<div id="preamble">
+<div class="sectionbody">
+<div class="paragraph">
+<p>After installing the Eclipse Scout package you are now ready to create your first Scout application.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="create-a-scout-project"><a class="anchor" href="#create-a-scout-project"></a>Create a Scout Project</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Start your Eclipse IDE and select an empty directory for your workspace as shown in <a href="#img-sdk_start_new_workspace">Figure Start the Eclipse IDE with a new project folder</a>.
+This workspace directory will then hold all the project code for the <code>Hello World</code> application.
+Once the Eclipse IDE is running it will show the Java perspective.</p>
+</div>
+<div id="img-sdk_start_new_workspace" class="imageblock">
+<div class="content">
+<img src="imgs/sdk_start_new_workspace.png" alt="sdk start new workspace">
+</div>
+<div class="title">Figure 1. Select a new empty folder to hold your project workspace</div>
+</div>
+<div class="paragraph">
+<p>To create a new Scout project select the menu <span class="menuseq"><span class="menu">File</span>&#160;&#9656; <span class="submenu">New</span>&#160;&#9656; <span class="menuitem">Project&#8230;&#8203;</span></span> and type &#8220;Scout Project&#8221; in the wizard search field.
+Select the Scout Project wizard and press <b class="button">Next</b>.
+The <em class="wizard">New Scout Project</em> wizard is then started as shown in <a href="#img-sdk_new_project_wizard">Figure New Scout Project Wizard</a>.</p>
+</div>
+<div id="img-sdk_new_project_wizard" class="imageblock">
+<div class="content">
+<img src="imgs/sdk_new_project.png" alt="sdk new project">
+</div>
+<div class="title">Figure 2. The new Scout project wizard.</div>
+</div>
+<div class="paragraph">
+<p>In the <em class="wizard">New Scout Project</em> wizard you have to enter a <code>group id</code>, <code>artifact id</code> and a <code>display name</code> for your Scout project.
+As the created project will make use of <a href="https://maven.apache.org/">Apache Maven</a> please refer to the <a href="https://maven.apache.org/guides/mini/guide-naming-conventions.html">Maven naming conventions</a> to choose  <code>group id</code> and <code>artifact id</code> for your project.
+The <code>artifact id</code> will then also be the project name in the Eclipse workspace.
+The <code>display name</code> is used as the application name presented to the user (e.g. in the Browser title bar).</p>
+</div>
+<div class="paragraph">
+<p>For the <code>Hello World</code> application just use the already prefilled values as sown in <a href="#img-sdk_new_project_wizard">Figure New Scout Project Wizard</a>.
+Then, click the <b class="button">Finish</b> button to let the Scout SDK create the initial project code for you.</p>
+</div>
+<div class="paragraph">
+<p>Depending on your Eclipse installation some <code>Maven plugin connectors</code> may be missing initially.
+In that case a dialog as shown in <a href="#img-sdk_new_project_connector">Figure Maven plugin connector installation dialog</a> may be shown.
+To continue click on <b class="button">Finish</b> to resolve the selected connectors.
+Afterwards confirm the installation, accept the license and the message that some content has not been signed.
+Finally, the installation of the maven plugin connectors requires a restart of the Eclipse IDE.</p>
+</div>
+<div id="img-sdk_new_project_connector" class="imageblock">
+<div class="content">
+<img src="imgs/sdk_new_project_connectors.png" alt="sdk new project connectors">
+</div>
+<div class="title">Figure 3. The Maven plugin connector installation dialog.</div>
+</div>
+<div class="paragraph">
+<p>After the <em class="wizard">New Scout Project</em> wizard has created the initial Maven modules for the <code>Hello World</code> application these modules are compiled and built by the Eclipse IDE.
+In case of a successful Eclipse Scout installation your Eclipse IDE should display all created Maven modules in the Package Explorer and have an empty Problems view as shown in <a href="#img-sdk_new_project_initial_helloworld">Figure The Hello World Maven Modules</a>.</p>
+</div>
+<div id="img-sdk_new_project_initial_helloworld" class="imageblock">
+<div class="content">
+<img src="imgs/sdk_new_project_initial_helloworld.png" alt="sdk new project initial helloworld">
+</div>
+<div class="title">Figure 4. The inital set of Maven modules created for the Hello World application.</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="run-the-application"><a class="anchor" href="#run-the-application"></a>Run the Application</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>After the initial project creation step we can start the Scout application for the first time.
+For this, the following three steps are necessary</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Start the Scout backend server</p>
+</li>
+<li>
+<p>Start the Scout frontend server</p>
+</li>
+<li>
+<p>Open the application in the browser</p>
+</li>
+</ol>
+</div>
+<div class="paragraph">
+<p>To start the Scout backend server we first select the <code>[webapp] dev server.launch</code> file in the Package Explorer view
+of the Eclipse IDE and then use the <em class="menu">Run As</em> menu as shown in <a href="#img-start_client">Figure Starting the Hello World application</a>.</p>
+</div>
+<div id="img-start_client" class="imageblock">
+<div class="content">
+<img src="imgs/sdk_start_client_product.png" alt="sdk start client product">
+</div>
+<div class="title">Figure 5. Starting the Hello World application.</div>
+</div>
+<div class="paragraph">
+<p>Starting the Scout frontend server works exactely the same.
+But first select the <code>[webapp] dev ui.launch</code> file in the Eclipse IDE.
+This launch file is located under module <code>helloworld.ui.html.app.dev</code> in the Package Explorer.</p>
+</div>
+<div class="paragraph">
+<p>During startup of the Scout applications you should see console output providing information about the startup.
+After having successfully started the Scout backend and frontend servers the Hello World application can then be accessed by navigating to <a href="http://localhost:8082/" class="bare">http://localhost:8082/</a> in your favorite web browser.</p>
+</div>
+<div class="paragraph">
+<p>The running Hello World application should then be started in your browser as shown in <a href="#img-start_browser">Figure The Hello World application</a>.</p>
+</div>
+<div id="img-start_browser" class="imageblock">
+<div class="content">
+<img src="imgs/run_helloworld_in_browser.png" alt="run helloworld in browser">
+</div>
+<div class="title">Figure 6. The Hello World application in the browser.</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="what-s-next"><a class="anchor" href="#what-s-next"></a>What&#8217;s Next?</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Now that you have successfully created your first Scout application, you might want to learn more about Scout.
+To gain experience with Scout we recommend looking at the beginner&#8217;s guide.</p>
+</div>
+<div class="paragraph">
+<p><a href="https://eclipsescout.github.io/6.0/beginners-guide.html">Scout Beginner&#8217;s Guide</a></p>
+</div>
+<div class="paragraph">
+<p>If you are interested in Scout&#8217;s concepts, architecture and features you probably want to have a look a the technical guide.
+For this, we are writing the Scout books.</p>
+</div>
+<div class="paragraph">
+<p><a href="https://eclipsescout.github.io/6.0/technical-guide.html">Scout Technical Guide</a></p>
+</div>
+<div class="paragraph">
+<p>In case you should get stuck somewhere and need help, try to get answers by searching the web.
+And if despite reasonable efforts this approach does not help, contact us on the forum.
+Should you have solved issues on your own, please consider sharing your findings in the Scout forum as this can help other folks too.</p>
+</div>
+<div class="paragraph">
+<p><a href="http://www.eclipse.org/forums/eclipse.scout">Scout Forum</a></p>
+</div>
+<div class="paragraph">
+<p>We wish you all the best on your journey with Scout and hope to hear from you in the Scout forum.</p>
+</div>
+<div class="admonitionblock tip">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-tip" title="Tip"></i>
+</td>
+<td class="content">
+Do you want to improve this document? Please <a href="https://github.com/BSI-Business-Systems-Integration-AG/org.eclipse.scout.docs/edit/releases/6.0.x/docs/build/scout_helloworld/src/docs/scout_helloworld.adoc">edit this page</a> on GitHub.
+</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+</div>
+<div id="footer">
+<div id="footer-text">
+Version 6.0<br>
+Last updated 2016-06-15 16:45:55 CEST
+</div>
+</div>
+</body>
 </html>

@@ -74,9 +74,9 @@ ol { list-style-position: inside; }
 .navbar { z-index: 3; position: absolute; top: 0; right: 17px; min-height: 0; width: 100%; margin-bottom: 0; padding: 17px 0; border: none; border-radius: 0; }
 .navbar-default { background-color: transparent; border-color: transparent; }
 .navbar-header { overflow: hidden; }
-.navbar-brand { overflow: hidden; float: left; width: 250px; height: 42px; background: url(images/sprite.png) -242px 0px no-repeat; text-indent: 150%; white-space: nowrap; }
+.navbar-brand { overflow: hidden; float: left; width: 256px; background: url("images/eclipse_scout_complet_256_42.png") 0 0 no-repeat; text-indent: 150%; white-space: nowrap; }
 
-.navbar>.container .navbar-brand { margin-left: 0; }
+.navbar>.container .navbar-brand { margin-top: 4px; margin-left: 0; }
 
 .navbar-nav { float: right; }
 .navbar-default .navbar-nav  li a { color: #fff; }
@@ -85,7 +85,10 @@ ol { list-style-position: inside; }
 /* woud be nice to have dark transparent menu background when menu is displayed over header image, and white background otherwise
 .nav .dropdown:hover { background-color: rgba(96,96,96,0.8); display: block; border-top-left-radius: 5px; border-top-right-radius: 5px; }
 */ 
-.nav .dropdown:hover { background-color: #fff; display: block; border-top-left-radius: 5px; border-top-right-radius: 5px; }
+.nav .affix-top & .dropdown-menu { background-color: rgba(255, 255, 255, 0.75);}
+.nav .affix & .dropdown-menu { background-color: rgba(255, 255, 255);}
+
+.nav .dropdown:hover { display: block; border-radius: 5px; }
 .nav .dropdown:hover a { color: #0184a3; }
 .nav .dropdown:hover ul { color: #0184a3; display: block; border: 1px; }
 
@@ -93,6 +96,8 @@ ol { list-style-position: inside; }
 .nav .dropdown li a { color: #faa635; }
 .nav .dropdown ul a { color: #fff; background-color: #fff; }
 .nav .dropdown ul a:hover { color: #faa635; }
+
+.navbar-nav > li > .dropdown-menu { border-radius: 4px; }
 
 .navbar.affix { position: fixed; background: #fff; }
 .navbar.affix .navbar-nav > li > a { color: #0184a3; }
@@ -127,7 +132,7 @@ ol { list-style-position: inside; }
 ========================================================================== */
 .section-services { padding: 45px 0 39px; background: #faa635; }
 .section-services .item { padding-top: 5px; text-align: center; }
-.section-services .item ~ .item { background: url(images/services-bg.png) 0 0 no-repeat; }
+/* .section-services .item ~ .item { background: url(images/services-bg.png) 0 0 no-repeat; } */
 .section-services .item-ico-wrapper { display: inline-block; width: 99px; height: 99px; padding-top: 19px; background: #0087b1; border-radius: 9px; text-align: center; }
 .section-services a { display: block; text-decoration: none; }
 .section-services a:hover strong { color: #0087b1; }
@@ -427,7 +432,7 @@ ol { list-style-position: inside; }
 
 	.header { background: transparent; }
 	.navbar-header { padding-left: 15px; }
-	.navbar-brand { width: 198px; height: 29px; margin-top: 10px; margin-left: 15px !important; background: url("images/sprite.png") no-repeat scroll -242px -44px;} 
+	.navbar-brand { width: 256px; height: 42px; margin-top: 10px; margin-left: 15px !important; background: url("images/eclipse_scout_complet_256_42.png");} 
 	
 	.navbar-toggle { float: right; margin: 5px 10px 0 0; border: 2px; }
 	.navbar-toggle .icon-bar { height: 3px; }
@@ -441,7 +446,6 @@ ol { list-style-position: inside; }
 	.intro-content p { font-size: 18px; margin-bottom: 60px; }
 	.intro-actions a { margin-bottom: 75px; }
 	
-	.section-services .item { background: url(images/services-bg-down.png) center bottom no-repeat !important; padding-bottom: 55px; }
 	.section-demo-image,
 	.section-download-image,
 	.section-tutorials-image { text-align: center; }
@@ -465,7 +469,6 @@ ol { list-style-position: inside; }
 	.section-testimonials { padding-bottom: 20px }
 
 	.footer ul { padding-bottom: 20px; }
-	/*.footer h5 { margin-bottom: 10px; text-decoration: underline; } */
 
 	.footer-bar { padding: 10px; }
 	.footer-bar-logo { float: left; display: block; }

@@ -94,9 +94,8 @@
 						<a href="#" >Documentation</a>
 
 						<ul class="dropdown-menu" role="menu">
-							<li><a target="_blank" href="https://www.youtube.com/user/eclipsescout">Video Tutorials</a></li>
-							<li><a target="_blank" href="https://wiki.eclipse.org/Scout/Tutorial">Wiki Tutorials</a></li>
-							<li><a target="_blank" href="https://eclipsescout.github.io/5.0/">Scout Book</a></li>
+							<li><a target="_blank" href="https://eclipsescout.github.io/6.0/beginners-guide.html">Beginner's Guide</a></li>
+							<li><a target="_blank" href="https://eclipsescout.github.io/6.0/technical-guide.html">Technical Guide</a></li>
 							<li><a target="_blank" href="https://wiki.eclipse.org/Scout">Wiki</a></li>
 						</ul>
 					</li>
@@ -172,7 +171,7 @@
 
 									<strong>Demo</strong>
 
-									<p>Try our online Demo</p>
+									<p>Try our online Apps</p>
 								</a>
 							</div><!-- /.col-md-4 -->
 
@@ -208,37 +207,22 @@
 						<div class="row">
 							<div class="col-sm-6 col-md-5 col-md-offset-1">
 								<div class="section-demo-image">
-									<img class="img-responsive" src="css/images/mac-demo.jpg" alt="" />
+									<img class="img-responsive" src="css/images/mac-demo.png" alt="" />
 								</div><!-- /.section-demo-image -->
 							</div><!-- /.col-md-6 -->
 
 							<div class="col-sm-6 col-md-5">
 								<div class="section-demo-content">
-									<h2>The Scout Demo</h2>
+									<h2>Scout Demo Apps</h2>
 
 									<!-- <h4>A Client-only Application</h4> -->
 
-									<p>Play with the Scout demo application and explore Scout forms, widgets and pages</p>
+									<p>Play with the Scout demo applications.</p>
 								</div><!-- /.section-demo-content -->
 
 								<div class="section-demo-actions">
-									<a target="_blank" href="https://scout.bsiag.com/demoapp/" class="btn btn-default demo-btn">Try the Live Demo</a>
-									<a target="_blank" href="https://scout.bsiag.com/demoapp/mobile" class="btn btn-default demo-btn demo-btn-mobile">Mobile Version</a>
-								</div><!-- /.section-demo-actions -->
-
-								<div class="section-demo-content">
-									<p style="margin-top: 17px;">Then, browse the gallery for screenshots of various Scout applications.</p>
-								</div><!-- /.section-demo-content -->
-
-								<div class="section-demo-actions">
-									<a class='btn-gallery btn btn-default demo-btn' href='gallery/bsicrm_screenshot_01.png' data-title="BSI CRM" data-description="A comprehensive CRM deployed at all customer interfaces. BSI CRM can be used both as client and mobile solution. Well-integrated and easy to use. Open technology guarantees efficiency, individuality and future security.">Gallery</a>
-									<a class='btn-gallery' style='visibility: hidden;' href='gallery/cisi_angebotsplanung_screenshot_01.png' data-title="CISI Angebotsplanung" data-description="An application used to manage the freight timetable of the Swiss National Railways (SBB)">Gallery 2</a>
-									<a class='btn-gallery' style='visibility: hidden;' href='gallery/connect_screenshot_01.png' data-title="Connect" data-description="An application to share medical files and to manage appointment planning.">Gallery 3</a>
-									<a class='btn-gallery' style='visibility: hidden;' href='gallery/indibox_screenshot_01.png' data-title="Indibox" data-description="An ERP-System for smaller businesses.">Gallery 4</a>
-									<a class='btn-gallery' style='visibility: hidden;' href='gallery/credit_management_screenshot_01.png' data-title="Credit Management Component" data-description="In this component of a core banking systems customer applications for loans, mortages and credits are managed. This includes checking the credit rating, the final granting of the credit and the printing of the credit agreements.">Gallery 5</a>
-									<a class='btn-gallery' style='visibility: hidden;' href='gallery/e-amis_screenshot_01.png' data-title="e-AMIS Mobile" data-description="e-AMIS Mobile is a Web/Mobile frontend for the asset management solution e-AMIS. Customers of banks or asset management companies can access their assets data and reports remotely, exchange messages with their advisors and modify certain customer data. e-AMIS Mobile shows asset valuation, performance, dynamic asset breakdown and allows drilling down to detailed positions and its transactions. Besides accessing pre-defined PDF reports, users can create custom reports on-demand.">Gallery 6</a>
-									<a class='btn-gallery' style='visibility: hidden;' href='gallery/tcms_screenshot_01.png' data-title="TCMS" data-description="TCMS is a software to manage (all) aspects of a team contest such as Recording of contest data, teams, disciplines; organization of the schedule for each discipline; recording or import of the results of the runs; calculation of the ranking; printing or publishing (on internet via ftp) of run schedules, ranking lists." >Gallery 7</a>
-									<a class='btn-gallery' style='visibility: hidden;' href='gallery/wotan_taps_screenshot_01.png' data-title="Wotan Taps" data-description="An application for veterinary practices. It includes medical histories of animals and basic bookkeeping features." >Gallery 8</a>
+									<a target="_blank" href="https://scout.bsi-software.com/contacts/" class="btn btn-default demo-btn">Try "Contacts"</a>
+								<!--	<a target="_blank" href="https://scout.bsi-software.com/widgets/" class="btn btn-default demo-btn demo-btn-mobile">Scout Widgets</a> -->
 								</div><!-- /.section-demo-actions -->
 
 							</div><!-- /.col-md-6 -->
@@ -290,7 +274,7 @@
 
 									<h4>Your first Scout Application</h4>
 
-									<p>Create a initial client server application, add widgets on the client and some business logic on the server side.</p>
+									<p>Create an initial code base, start the application in the Eclipse IDE and use your browser to connect to the Scout frontend server.</p>
 								</div><!-- /.section-tutorials-content -->
 
 								<div class="section-tutorials-actions">
@@ -381,23 +365,23 @@
 
 						<div class="benefit-entries">
 							<div class="benefit-entry sustainable-investment">
-								<p>Sustainability and long-term thinking are in Scout’s genes. Over 10 years, Scout has evolved into the mature and versatile framework it is today. And the open source communit around Scout is growing since 2009. This makes Scout a perfect choice for your business-critical applications.</p>
+								<p>Sustainability and long-term thinking are in Scout’s genes. Over 15 years, Scout has evolved into the mature and versatile framework it is today. The open source communit around Scout is growing since 2009. This makes Scout a perfect choice for your business-critical applications.</p>
 							</div><!-- /.benefit-entry -->
 
 							<div class="benefit-entry open-source">
-								<p>The Scout framework is open source software and free to use for both pesonal and commercial projects. At the same time, Scout profits from the world-class IP management enforced in all Eclipse projects. </p>
+								<p>The Scout framework is open source software and free to use for both pesonal and commercial projects. At the same time, Scout profits from the world-class IP management provided by the Eclipse foundation. </p>
 							</div><!-- /.benefit-entry -->
 
 							<div class="benefit-entry increase-productivity">
-								<p>Scout covers many recurring requirements such as user authentication,client server communication, data binding and building rich user interfaces. This allows the application developer to spend more time on understanding and implementing business cases. </p>
+								<p>Scout covers many recurring requirements such as user authentication, client server communication, data binding and building rich user interfaces. This allows the application developer to spend more time on understanding and implementing business cases. </p>
 							</div><!-- /.benefit-entry -->
 
 							<div class="benefit-entry time-to-market">
-								<p>Scout is simple to learn, offers free access to many resources and increases developer productivity. And backed by commercial support, Scout can help your team to meet demanding deadlines. </p>
+								<p>Scout is simple to learn, offers free access to many resources and increases developer productivity. Backed by commercial support, the Scout framework can help your team to meet demanding deadlines. </p>
 							</div><!-- /.benefit-entry -->
 
 							<div class="benefit-entry simple-to-learn">
-								<p>Thanks to the tooling support and the available documentation Scout is simple to learn. Java developers can expect to get started within a few days. </p>
+								<p>Thanks to its plain Java/HTML5 technology stack and the available documentation Scout is simple to learn. Java developers can expect to get started within a few days. </p>
 							</div><!-- /.benefit-entry -->
 						</div><!-- /.benefit-entries -->
 					</div><!-- /.container -->
@@ -407,7 +391,7 @@
 					<div class="container">
 						<div class="row">
 							<div class="section-head">
-								<h3>Features of the Scout Framework</h3>
+								<h3>Scout Framework Features</h3>
 							</div><!-- /.section-head -->
 						</div><!-- /.row -->
 					</div><!-- /.container -->
@@ -417,17 +401,17 @@
 							<div class="row feature">
 								<div class="col-sm-6 col-md-5 col-md-offset-1">
 									<div class="feature-image">
-										<img class="img-responsive" src="css/images/multi-device.png" alt="" />
+										<img class="img-responsive" src="css/images/scout_neon_multi_device_430.png" alt="" />
 									</div><!-- /.feature-image -->
 								</div><!-- /.col-sm-6 col-md-5 col-md-offset-1 -->
 
 								<div class="col-sm-5 col-md-5">
 									<div class="feature-content">
-										<h4>Multi-Device Support</h4>
+										<h4>Multi Device Support</h4>
 
-										<p>Scout client applications run simultaneously on the desktop, in the browser, and on mobile devices. </p>
+										<p>Scout clients run on the desktop, on tablets and mobile devices.</p>
 
-										<p>Implemented against an abstract component model, Scout applications support all devices based on the same Java source code. </p>
+										<p>A single code base is used to support the different devices. Default device transformations rules help you to keep device specific code to a minimum.</p>
 									</div><!-- /.feature-content -->
 								</div><!-- /.col-sm-6 col-md-5 -->
 							</div><!-- /.row feature -->
@@ -435,79 +419,58 @@
 							<div class="row feature">
 								<div class="col-sm-6 col-sm-push-6 col-md-push-6 col-md-5">
 									<div class="feature-image feature-image-right">
-										<img class="img-responsive" src="css/images/client-server-architecture.png" alt="" />
+										<img class="img-responsive" src="css/images/scout_java_model_background.png" alt="" />
 									</div><!-- /.feature-image -->
 								</div><!-- /.col-sm-6 col-md-5 -->
 
 								<div class="col-sm-6 col-sm-pull-6 col-md-5 col-md-pull-5 col-md-offset-1">
 									<div class="feature-content">
-										<h4>Client Server Architecture</h4>
+										<h4>Java Application Model</h4>
 
-										<p>The Scout framework covers a complete client server architecture. </p>
+										<p>Scout applications are written against a plain Java application model.</p>
 
-										<p>Business rules are implemented on the server, and the client takes care of the user interaction.</p>
+										<p>This modeling approach keeps your business code clean and increases long term maintainability.</p>
 
-										<p>This separation supports a clean technical layering. </p>
 									</div><!-- /.feature-content -->
 								</div><!-- /.col-sm-6 col-md-5 col-md-offset-1 -->
 							</div><!-- /.row feature -->
 
 							<div class="row feature">
 								<div class="col-sm-6 col-md-5 col-md-offset-1">
-									<div class="feature-image">
-										<img class="img-responsive" src="css/images/modular-application.png" alt="" />
+									<div class="feature-image" >
+										<img class="img-theming" width="340" src="css/images/scout_neon_theming_and_styling.png" alt="" />
 									</div><!-- /.feature-image -->
 								</div><!-- /.col-sm-6 col-md-5 col-md-offset-1 -->
 
 								<div class="col-sm-5 col-md-5">
+									<div class="feature-content">
+										<h4>HTML5 Rendering</h4>
+
+										<p>The rendering of Scout applications relies on HTML5, CSS3 and Javascript.</p>
+
+										<p>Styling and theming your Scout application is both simple and powerful. You may use global or component specific options to tune the look and feel of your application.</p>
+
+									</div><!-- /.feature-content -->
+								</div><!-- /.col-sm-6 col-md-5 -->
+							</div><!-- /.row feature -->
+
+							<div class="row feature">
+								<div class="col-sm-6 col-sm-push-6 col-md-push-6 col-md-5">
+									<div class="feature-image feature-image-right">
+										<img class="img-responsive" src="css/images/scout_modular_app.png" height="180" width="470" alt="" />
+									</div><!-- /.feature-image -->
+								</div><!-- /.col-sm-6 col-md-5 -->
+
+								<div class="col-sm-6 col-sm-pull-6 col-md-5 col-md-pull-5 col-md-offset-1">
 									<div class="feature-content">
 										<h4>Modular Applications</h4>
+										
+										<p>Scout applications are modularized into layers and slices.</p>
 
-										<p>Scout allows to modularize large enterprise applications into separate modules. </p>
+										<p>Depending on a common core, you may implement individual modules for different business aspects.</p>
 
-										<p>Around a common core, individual modules implement different business aspects such as customers, accounts, or reporting. </p>
-
-										<p>Such modules can be implemented by specific teams and may even have individual release cycles. </p>
-									</div><!-- /.feature-content -->
-								</div><!-- /.col-sm-6 col-md-5 -->
-							</div><!-- /.row feature -->
-
-							<div class="row feature">
-								<div class="col-sm-6 col-sm-push-6 col-md-push-6 col-md-5">
-									<div class="feature-image feature-image-right">
-										<img class="img-responsive" src="css/images/tooling-support.png" height="263" width="344" alt="" />
-									</div><!-- /.feature-image -->
-								</div><!-- /.col-sm-6 col-md-5 -->
-
-								<div class="col-sm-6 col-sm-pull-6 col-md-5 col-md-pull-5 col-md-offset-1">
-									<div class="feature-content">
-										<h4>Tooling Support</h4>
-
-										<p>With the Scout SDK, a strong tooling support is available for building Scout applications. </p>
-
-										<p>The Scout SDK allows for easy navigation covering both client and server components.</p>
-
-										<p>And thanks to the many wizards, beginners quickly take off with Scout. </p>
 									</div><!-- /.feature-content -->
 								</div><!-- /.col-sm-6 col-md-5 col-md-offset-1 -->
-							</div><!-- /.row feature -->
-
-							<div class="row feature">
-								<div class="col-sm-6 col-md-5 col-md-offset-1">
-									<div class="feature-image">
-										<img class="img-responsive" src="css/images/eclipse.png" alt="" />
-									</div><!-- /.feature-image -->
-								</div><!-- /.col-sm-6 col-md-5 col-md-offset-1 -->
-
-								<div class="col-sm-5 col-md-5">
-									<div class="feature-content percentage-content">
-										<h4>100% Java/Eclipse</h4>
-
-										<p>Scout is fully based on Java/Eclipse standards.</p>
-
-										<p>This allows Java developers to take full advantage of their existing experience and know-how.</p>
-									</div><!-- /.feature-content -->
-								</div><!-- /.col-sm-6 col-md-5 -->
 							</div><!-- /.row feature -->
 						</div><!-- /.container -->
 					</div><!-- /.section-body -->

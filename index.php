@@ -221,7 +221,7 @@
 
 								<div class="section-demo-actions">
 									<a target="_blank" href="https://scout.bsi-software.com/contacts/" class="btn btn-default demo-btn">Try "Contacts"</a>
-									<a target="_blank" href="https://scout.bsi-software.com/widgets/" class="btn btn-default demo-btn demo-btn-mobile">Scout Widgets</a>
+									<a target="_blank" href="https://scout.bsi-software.com/widgets/" class="btn btn-default demo-btn">Scout Widgets</a>
 								</div><!-- /.section-demo-actions -->
 
 							</div><!-- /.col-md-6 -->

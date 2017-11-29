@@ -34,9 +34,9 @@
 				<a href="#">Documentation</a>
 
 				<ul>
-					<li><a target="_blank" href="https://eclipsescout.github.io/6.0/beginners-guide.html">Beginner's Guide</a></li>
-					<li><a target="_blank" href="https://eclipsescout.github.io/6.0/technical-guide.html">Technical Guide</a></li>
-					<li><a target="_blank" href="https://wiki.eclipse.org/Scout">Wiki</a></li>
+					<li><a target="_blank" href="https://eclipsescout.github.io/7.0/beginners-guide.html">Beginner's Guide</a></li>
+					<li><a target="_blank" href="https://eclipsescout.github.io/7.0/technical-guide.html">Technical Guide</a></li>
+					<li><a target="_blank" href="https://eclipsescout.github.io/">More Documentation</a></li>
 				</ul>
 			</li>
 
@@ -93,9 +93,9 @@
 						<a href="#" >Documentation</a>
 
 						<ul class="dropdown-menu" role="menu">
-							<li><a target="_blank" href="https://eclipsescout.github.io/6.0/beginners-guide.html">Beginner's Guide</a></li>
-							<li><a target="_blank" href="https://eclipsescout.github.io/6.0/technical-guide.html">Technical Guide</a></li>
-							<li><a target="_blank" href="https://wiki.eclipse.org/Scout">Wiki</a></li>
+							<li><a target="_blank" href="https://eclipsescout.github.io/7.0/beginners-guide.html">Beginner's Guide</a></li>
+							<li><a target="_blank" href="https://eclipsescout.github.io/7.0/technical-guide.html">Technical Guide</a></li>
+							<li><a target="_blank" href="https://eclipsescout.github.io/">More Documentation</a></li>
 						</ul>
 					</li>
 
@@ -463,7 +463,7 @@
 								<div class="col-sm-6 col-sm-pull-6 col-md-5 col-md-pull-5 col-md-offset-1">
 									<div class="feature-content">
 										<h4>Modular Applications</h4>
-										
+
 										<p>Scout applications are modularized into layers and slices.</p>
 
 										<p>Depending on a common core, you may implement individual modules for different business aspects.</p>

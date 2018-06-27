@@ -34,8 +34,9 @@
 				<a href="#">Documentation</a>
 
 				<ul>
-					<li><a target="_blank" href="https://eclipsescout.github.io/7.0/beginners-guide.html">Beginner's Guide</a></li>
-					<li><a target="_blank" href="https://eclipsescout.github.io/7.0/technical-guide.html">Technical Guide</a></li>
+					<li><a target="_blank" href="https://eclipsescout.github.io/8.0/beginners-guide.html">Beginner's Guide</a></li>
+					<li><a target="_blank" href="https://eclipsescout.github.io/8.0/technical-guide.html">Technical Guide</a></li>
+					<li><a target="_blank" href="https://eclipsescout.github.io/8.0/technical-guide-js.html">Technical Guide for Scout JS</a></li>
 					<li><a target="_blank" href="https://eclipsescout.github.io/">More Documentation</a></li>
 				</ul>
 			</li>
@@ -93,8 +94,9 @@
 						<a href="#" >Documentation</a>
 
 						<ul class="dropdown-menu" role="menu">
-							<li><a target="_blank" href="https://eclipsescout.github.io/7.0/beginners-guide.html">Beginner's Guide</a></li>
-							<li><a target="_blank" href="https://eclipsescout.github.io/7.0/technical-guide.html">Technical Guide</a></li>
+							<li><a target="_blank" href="https://eclipsescout.github.io/8.0/beginners-guide.html">Beginner's Guide</a></li>
+							<li><a target="_blank" href="https://eclipsescout.github.io/8.0/technical-guide.html">Technical Guide</a></li>
+							<li><a target="_blank" href="https://eclipsescout.github.io/8.0/technical-guide-js.html">Technical Guide for Scout JS</a></li>
 							<li><a target="_blank" href="https://eclipsescout.github.io/">More Documentation</a></li>
 						</ul>
 					</li>
@@ -222,6 +224,7 @@
 								<div class="section-demo-actions">
 									<a target="_blank" href="https://scout.bsi-software.com/contacts/" class="btn btn-default demo-btn">Try "Contacts"</a>
 									<a target="_blank" href="https://scout.bsi-software.com/widgets/" class="btn btn-default demo-btn">Scout Widgets</a>
+									<a target="_blank" href="https://scout.bsi-software.com/jswidgets/" class="btn btn-default demo-btn">Scout JS Widgets</a>
 								</div><!-- /.section-demo-actions -->
 
 							</div><!-- /.col-md-6 -->

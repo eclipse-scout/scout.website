@@ -26,7 +26,7 @@
 
 				<ul>
 					<li><a target="_blank" href="https://twitter.com/EclipseScout">Twitter</a></li>
-					<li><a target="_blank" href="http://www.bsi-software.com/scout">Blog</a></li>
+					<li><a target="_blank" href="https://www.bsi-software.com/en/eclipse-scout-blog">Blog</a></li>
 				</ul>
 			</li>
 
@@ -86,7 +86,7 @@
 
 						<ul class="dropdown-menu" role="menu">
 							<li><a target="_blank" href="https://twitter.com/EclipseScout">Twitter</a></li>
-							<li><a target="_blank" href="http://www.bsi-software.com/scout">Blog</a></li>
+							<li><a target="_blank" href="https://www.bsi-software.com/en/eclipse-scout-blog">Blog</a></li>
 						</ul>
 					</li>
 
@@ -637,7 +637,7 @@
 				<a target="_blank" href="http://www.eclipse.org/legal" class="lnk-footer">Legal</a>
 
 				<a target="_blank" href="https://twitter.com/EclipseScout" class="btn-social"><i class="fa fa-twitter-square"></i></a>
-				<a target="_blank" href="http://www.bsi-software.com/scout" class="btn-social"><i class="fa fa-rss-square"></i></a>
+				<a target="_blank" href="https://www.bsi-software.com/en/eclipse-scout-blog" class="btn-social"><i class="fa fa-rss-square"></i></a>
 				<a target="_blank" href="https://plus.google.com/103593107241008270960" class="btn-social"><i class="fa fa-google-plus-square"></i></a>
 				<a target="_blank" href="https://www.facebook.com/EclipseScout" class="btn-social"><i class="fa fa-facebook-square"></i></a>
 				<a target="_blank" href="https://www.youtube.com/user/eclipsescout" class="btn-social"><i class="fa fa-youtube-square"></i></a>

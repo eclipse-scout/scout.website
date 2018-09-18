@@ -35,7 +35,7 @@ define("URL_SCREENCASTS", "http://wiki.eclipse.org/Scout/Overview/Screencasts");
 define("URL_SCREENCASTS_YOUTUBE", "http://www.youtube.com/eclipsescout");
 define("URL_SCREENCAST_LAST", "http://www.youtube.com/watch?v=SgbKrZHseTQ&list=PLM9RhoqzsT4Xvkf1lo4ry57JdneEGUJaC");
 define("URL_SLIDES", "http://wiki.eclipse.org/Scout/Overview/Slides");
-define("URL_BLOG", "http://www.bsi-software.com/scout/");
+define("URL_BLOG", "https://www.bsi-software.com/en/scout-blog/");
 define("URL_TWITTER", "http://twitter.com/eclipseScout");
 define("URL_SUMMARY", "http://projects.eclipse.org/projects/technology.scout");
 define("URL_ECLIPSE_DOWNLOAD", "http://www.eclipse.org/downloads");

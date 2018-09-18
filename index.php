@@ -116,7 +116,7 @@
 						<a href="#" >Support</a>
 
 						<ul class="dropdown-menu" role="menu">
-							<li><a target="_blank" href="https://www.bsi-software.com/en/technology/eclipse-scout.html">Professional Services</a></li>
+							<li><a target="_blank" href="https://www.bsi-software.com/en/services/consultation/scout-support.html">Professional Services</a></li>
 							<li><a href="#contact-us" class="slide-to-section">Contact us</a></li>
 						</ul>
 					</li>

@@ -34,9 +34,9 @@
 				<a href="#">Documentation</a>
 
 				<ul>
-					<li><a target="_blank" href="https://eclipsescout.github.io/8.0/beginners-guide.html">Beginner's Guide</a></li>
-					<li><a target="_blank" href="https://eclipsescout.github.io/8.0/technical-guide.html">Technical Guide</a></li>
-					<li><a target="_blank" href="https://eclipsescout.github.io/8.0/technical-guide-js.html">Technical Guide for Scout JS</a></li>
+					<li><a target="_blank" href="https://eclipsescout.github.io/9.0/beginners-guide.html">Beginner's Guide</a></li>
+					<li><a target="_blank" href="https://eclipsescout.github.io/9.0/technical-guide.html">Technical Guide</a></li>
+					<li><a target="_blank" href="https://eclipsescout.github.io/9.0/technical-guide-js.html">Technical Guide for Scout JS</a></li>
 					<li><a target="_blank" href="https://eclipsescout.github.io/">More Documentation</a></li>
 				</ul>
 			</li>
@@ -94,9 +94,9 @@
 						<a href="#" >Documentation</a>
 
 						<ul class="dropdown-menu" role="menu">
-							<li><a target="_blank" href="https://eclipsescout.github.io/8.0/beginners-guide.html">Beginner's Guide</a></li>
-							<li><a target="_blank" href="https://eclipsescout.github.io/8.0/technical-guide.html">Technical Guide</a></li>
-							<li><a target="_blank" href="https://eclipsescout.github.io/8.0/technical-guide-js.html">Technical Guide for Scout JS</a></li>
+							<li><a target="_blank" href="https://eclipsescout.github.io/9.0/beginners-guide.html">Beginner's Guide</a></li>
+							<li><a target="_blank" href="https://eclipsescout.github.io/9.0/technical-guide.html">Technical Guide</a></li>
+							<li><a target="_blank" href="https://eclipsescout.github.io/9.0/technical-guide-js.html">Technical Guide for Scout JS</a></li>
 							<li><a target="_blank" href="https://eclipsescout.github.io/">More Documentation</a></li>
 						</ul>
 					</li>

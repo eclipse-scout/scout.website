@@ -37,7 +37,9 @@
 					<li><a target="_blank" href="https://eclipsescout.github.io/9.0/beginners-guide.html">Beginner's Guide</a></li>
 					<li><a target="_blank" href="https://eclipsescout.github.io/9.0/technical-guide.html">Technical Guide</a></li>
 					<li><a target="_blank" href="https://eclipsescout.github.io/9.0/technical-guide-js.html">Technical Guide for Scout JS</a></li>
-					<li><a target="_blank" href="https://eclipsescout.github.io/">More Documentation</a></li>
+					<li><a target="_blank" href="https://eclipsescout.github.io/9.0/release-notes.html">Release Notes</a></li>
+				    <li><a target="_blank" href="https://eclipsescout.github.io/9.0/migration-guide.html">Migration Guide</a></li>
+					<li><a target="_blank" href="https://eclipsescout.github.io/">All Documentation</a></li>
 				</ul>
 			</li>
 
@@ -45,10 +47,12 @@
 				<a href="#">Community</a>
 
 				<ul>
-					<li><a target="_blank" href="http://www.eclipse.org/forums/index.php?t=thread&frm_id=174">Ask Questions</a></li>
+					<li><a target="_blank" href="https://www.eclipse.org/forums/index.php?t=thread&frm_id=174">Eclipse Scout Forum</a></li>
+                    <li><a target="_blank" href="https://stackoverflow.com/tags/eclipse-scout">Stack Overflow</a></li>
+					<li><a target="_blank" href="https://github.com/eclipse/scout.rt">View Source on GitHub</a></li>
 					<li><a target="_blank" href="https://bugs.eclipse.org/bugs/buglist.cgi?bug_status=UNCONFIRMED&bug_status=NEW&bug_status=ASSIGNED&bug_status=REOPENED&bug_status=RESOLVED&bug_status=VERIFIED&columnlist=bug_id%2Cbug_severity%2Cpriority%2Ctarget_milestone%2Cbug_status%2Cresolution%2Ccomponent%2Cassigned_to%2Cshort_desc&list_id=10272285&product=Scout&query_format=advanced">
-						View open Bugs</a></li>
-					<li><a target="_blank" href="https://wiki.eclipse.org/Scout/Contribution">Contribute</a></li>
+						View Open Bugs</a></li>
+                    <li><a target="_blank" href="https://wiki.eclipse.org/Scout/Contribution">Contribute</a></li>
 				</ul>
 			</li>
 
@@ -97,7 +101,9 @@
 							<li><a target="_blank" href="https://eclipsescout.github.io/9.0/beginners-guide.html">Beginner's Guide</a></li>
 							<li><a target="_blank" href="https://eclipsescout.github.io/9.0/technical-guide.html">Technical Guide</a></li>
 							<li><a target="_blank" href="https://eclipsescout.github.io/9.0/technical-guide-js.html">Technical Guide for Scout JS</a></li>
-							<li><a target="_blank" href="https://eclipsescout.github.io/">More Documentation</a></li>
+							<li><a target="_blank" href="https://eclipsescout.github.io/9.0/release-notes.html">Release Notes</a></li>
+						    <li><a target="_blank" href="https://eclipsescout.github.io/9.0/migration-guide.html">Migration Guide</a></li>
+							<li><a target="_blank" href="https://eclipsescout.github.io/">All Documentation</a></li>
 						</ul>
 					</li>
 
@@ -105,9 +111,11 @@
 						<a href="#" >Community</a>
 
 						<ul class="dropdown-menu" role="menu">
-							<li><a target="_blank" href="http://www.eclipse.org/forums/index.php?t=thread&frm_id=174">Ask Questions</a></li>
+							<li><a target="_blank" href="https://www.eclipse.org/forums/index.php?t=thread&frm_id=174">Eclipse Scout Forum</a></li>
+						    <li><a target="_blank" href="https://stackoverflow.com/tags/eclipse-scout">Stack Overflow</a></li>
+ 					        <li><a target="_blank" href="https://github.com/eclipse/scout.rt">View Source on GitHub</a></li>
 							<li><a target="_blank" href="https://bugs.eclipse.org/bugs/buglist.cgi?bug_status=UNCONFIRMED&bug_status=NEW&bug_status=ASSIGNED&bug_status=REOPENED&bug_status=RESOLVED&bug_status=VERIFIED&columnlist=bug_id%2Cbug_severity%2Cpriority%2Ctarget_milestone%2Cbug_status%2Cresolution%2Ccomponent%2Cassigned_to%2Cshort_desc&list_id=10272285&product=Scout&query_format=advanced">
-								View open Bugs</a></li>
+								View Open Bugs</a></li>
 							<li><a target="_blank" href="https://wiki.eclipse.org/Scout/Contribution">Contribute</a></li>
 						</ul>
 					</li>
@@ -141,18 +149,15 @@
 								<p>Future Proof Business Applications</p>
 							</div><!-- /.intro-content -->
 
-							<!-- reenable once the video is made
-							<div class="intro-actions">
-								<a href="https://www.youtube.com/watch?v=XQu8TTBmGhA" class="video-link popup-link">
-									<i class="ico ico-play"></i> <br />
-									Watch the video
-								</a>
-
-								<br />
-
-								<i class="ico ico-mouse"></i>
+						  <div class="latest-version-box">
+						    <div class="latest-version-title">Release 9.0</div>
+                            <div class="latest-version-body">		    
+                              is the current stable version<br/>
+                              <a target="_blank" href="https://eclipsescout.github.io/9.0/release-notes.html" class="latest-version-link" title="Release Notes">What's new?</a> | 
+                              <a href="#section-download" class="slide-to-section latest-version-link">Download</a>
 							</div>
-							-->
+                          </div>
+
 						</div><!-- /.intro-inner -->
 					</div><!-- /.col-md-12 -->
 				</div><!-- /.row -->
@@ -628,19 +633,19 @@
 		</div><!-- /.main -->
 
 		<footer class="footer">
-			<a href="#" class="footer-toggler">show/hide footer</a>
+			    <a href="#" class="footer-toggler">show/hide footer</a>
 
-				<a target="_blank" href="http://www.eclipse.org" class="lnk-footer">Eclipse Home</a>
+				<a target="_blank" href="http://www.eclipse.org" class="lnk-footer first">Eclipse Home</a>
 				<a target="_blank" href="http://www.eclipse.org/legal/privacy.php" class="lnk-footer">Privacy Policy</a>
 				<a target="_blank" href="http://www.eclipse.org/legal/termsofuse.php" class="lnk-footer">Terms of Use</a>
 				<a target="_blank" href="http://www.eclipse.org/legal/copyright.php" class="lnk-footer">Copyright Agent</a>
 				<a target="_blank" href="http://www.eclipse.org/legal" class="lnk-footer">Legal</a>
 
-				<a target="_blank" href="https://twitter.com/EclipseScout" class="btn-social"><i class="fa fa-twitter-square"></i></a>
+				<a target="_blank" href="https://twitter.com/EclipseScout" class="btn-social"><i class="fab fab-twitter-square"></i></a>
 				<a target="_blank" href="https://www.bsi-software.com/en/scout-blog" class="btn-social"><i class="fa fa-rss-square"></i></a>
-				<a target="_blank" href="https://plus.google.com/103593107241008270960" class="btn-social"><i class="fa fa-google-plus-square"></i></a>
-				<a target="_blank" href="https://www.facebook.com/EclipseScout" class="btn-social"><i class="fa fa-facebook-square"></i></a>
-				<a target="_blank" href="https://www.youtube.com/user/eclipsescout" class="btn-social"><i class="fa fa-youtube-square"></i></a>
+				<a target="_blank" href="https://www.facebook.com/EclipseScout" class="btn-social"><i class="fab fab-facebook-square"></i></a>
+				<a target="_blank" href="https://www.youtube.com/user/eclipsescout" class="btn-social"><i class="fab fab-youtube-square"></i></a>
+                <a target="_blank" href="https://github.com/eclipse/scout.rt" class="btn-social"><i class="fab fab-github-square"></i></a>
 		</footer><!-- /.footer -->
 
 		<script type="text/javascript">

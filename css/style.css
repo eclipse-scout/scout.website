@@ -120,8 +120,37 @@ ol { list-style-position: inside; }
 .intro .container { position: absolute; top: 120px; width: 100%; z-index: 2; text-align: center; }
 .intro-image img { height: 626px; width: 100%; }
 .intro-content h1 { margin: 33px 0 0; font-family: 'Dax-Regular', sans-serif; font-size: 90px; color: #fff; }
-.intro-content p { margin-bottom: 40px; font-size: 29px; color: #faa635; }
+.intro-content p { margin-bottom: 26px; font-size: 29px; color: #faa635; }
 .intro-actions a { display: inline-block; margin-bottom: 61px; font-size: 16px; color: #fff; text-decoration: none; }
+
+.latest-version-box {
+  text-align: left;
+  background-color: rgba(255, 255, 255, 0.85);
+  padding: 10px 20px 12px 20px;
+  max-width: 280px;
+  border-radius: 9px;
+  line-height: normal;
+  border: solid #5d5d5d 2px;
+  margin: auto;
+}
+
+.latest-version-title {
+  font-weight: bold;
+  color: #5d5d5d;
+  margin-bottom: 8px;
+}
+
+.latest-version-body {
+  color: #333;
+}
+
+.latest-version-link {
+  color: #0184a3;
+}
+
+.latest-version-link:hover {
+  color: #0184a3;
+}
 
 .fsr-container { overflow: hidden; background-repeat: no-repeat; background-size: cover; }
 .fsr-image { position: absolute; }
@@ -375,13 +404,15 @@ ol { list-style-position: inside; }
 /* font awesome chars see http://astronautweb.co/snippet/font-awesome/ */
 .footer a { color:#fff; vertical-align: middle; }
 .lnk-footer { padding-left: 10px; padding-right: 10px; font-size:16px; }
+.lnk-footer.first { padding-left: 40px; }
 .btn-social { padding-left: 5px; font-size:30px; }
 .fa{display:inline-block;font-family:FontAwesome;font-style:normal;font-weight:normal;line-height:1;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
-.fa-twitter-square:before{content:"\f081"; color: #fff;}
+.fab{display:inline-block;font-family:FontAwesomeBrands;font-style:normal;font-weight:normal;line-height:1;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
+.fab-twitter-square:before{content:"\f081"; color: #fff;}
 .fa-rss-square:before{content:"\f143 "; color: #fff;}
-.fa-google-plus-square:before{content:"\f0d4"; color: #fff;}
-.fa-facebook-square:before{content:"\f082"; color: #fff;}
-.fa-youtube-square:before{content:"\f166"; color: #fff;}
+.fab-facebook-square:before{content:"\f082"; color: #fff;}
+.fab-youtube-square:before{content:"\f431"; color: #fff;}
+.fab-github-square:before{content:"\f092"; color: #fff;}
 
 .percentage-content { padding-top: 25px; }
 .footer-toggler { display: none; }

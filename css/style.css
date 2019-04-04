@@ -405,9 +405,10 @@ ol { list-style-position: inside; }
 
 /* font awesome chars see http://astronautweb.co/snippet/font-awesome/ */
 .footer a { color:#fff; vertical-align: middle; }
-.lnk-footer { padding-left: 10px; padding-right: 10px; font-size:16px; }
+.lnk-footer { padding-left: 10px; padding-right: 10px; font-size:16px; white-space: nowrap; }
 .lnk-footer.first { padding-left: 40px; }
 .btn-social { padding-left: 5px; font-size:30px; }
+.social-icons { white-space: nowrap; }
 .fa{display:inline-block;font-family:FontAwesome;font-style:normal;font-weight:normal;line-height:1;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
 .fab{display:inline-block;font-family:FontAwesomeBrands;font-style:normal;font-weight:normal;line-height:1;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
 .fab-twitter-square:before{content:"\f081"; color: #fff;}
@@ -450,17 +451,15 @@ ol { list-style-position: inside; }
 }
 
 @media (max-width: 767px) {
-
-    #cboxTitle { visibility: hidden; }
-	
-    .demo-btn-mobile { visibility: hidden; }
-
+  #cboxTitle { visibility: hidden; }
+	.demo-btn-mobile { visibility: hidden; }
 	.nav-mobile { display: block; }
+	.lnk-footer { font-size: 14px; }
+	.lnk-footer.first { padding-left: 10px; }
+	.social-icons { display: block; margin-left: 5px; margin-top: 5px; }
 
 	.is-affixed .nav-mobile > ul { padding-top: 71px; }
-	/* .navbar { width: 97%; } there must be a better solution ... */
 	.navbar.affix { left: 0 !important; }
-
 	.mfp-iframe-holder { padding: 0 20px 0 5px; }
 
 	.header { background: transparent; }
@@ -506,7 +505,7 @@ ol { list-style-position: inside; }
 	.footer-bar { padding: 10px; }
 	.footer-bar-logo { float: left; display: block; }
 	
-	.footer { padding-left: 50px; }
+	.footer { padding: 10px; }
 }
 
 /* ==========================================================================
@@ -523,7 +522,7 @@ ol { list-style-position: inside; }
 }
 
 .popup-title {
-	color: #5d5d5d;
+	color: #0082a1;
 	margin: 0;
 	margin-bottom: 8px;
 	flex-grow: 1;

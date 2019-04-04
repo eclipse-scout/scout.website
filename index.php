@@ -642,11 +642,13 @@
 				<a target="_blank" href="http://www.eclipse.org/legal/copyright.php" class="lnk-footer">Copyright Agent</a>
 				<a target="_blank" href="http://www.eclipse.org/legal" class="lnk-footer">Legal</a>
 
-				<a target="_blank" href="https://twitter.com/EclipseScout" class="btn-social"><i class="fab fab-twitter-square"></i></a>
-				<a target="_blank" href="https://www.bsi-software.com/en/scout-blog" class="btn-social"><i class="fa fa-rss-square"></i></a>
-				<a target="_blank" href="https://www.facebook.com/EclipseScout" class="btn-social"><i class="fab fab-facebook-square"></i></a>
-				<a target="_blank" href="https://www.youtube.com/user/eclipsescout" class="btn-social"><i class="fab fab-youtube-square"></i></a>
-                <a target="_blank" href="https://github.com/eclipse/scout.rt" class="btn-social"><i class="fab fab-github-square"></i></a>
+				<span class="social-icons">
+				  <a target="_blank" href="https://twitter.com/EclipseScout" class="btn-social"><i class="fab fab-twitter-square"></i></a>
+				  <a target="_blank" href="https://www.bsi-software.com/en/scout-blog" class="btn-social"><i class="fa fa-rss-square"></i></a>
+				  <a target="_blank" href="https://www.facebook.com/EclipseScout" class="btn-social"><i class="fab fab-facebook-square"></i></a>
+				  <a target="_blank" href="https://www.youtube.com/user/eclipsescout" class="btn-social"><i class="fab fab-youtube-square"></i></a>
+          <a target="_blank" href="https://github.com/eclipse/scout.rt" class="btn-social"><i class="fab fab-github-square"></i></a>
+				</span>
 		</footer><!-- /.footer -->
 
 		<script type="text/javascript">

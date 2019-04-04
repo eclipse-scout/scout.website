@@ -4,6 +4,7 @@
 	<title>Eclipse Scout</title>
 	<meta charset="UTF-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="author" content="BSI Business System Integration AG">
 	<link rel="shortcut icon" href="css/images/favicon.ico" />
 	<link rel="stylesheet" href="css/bootstrap.min.css" />
 	<link rel="stylesheet" href="css/fonts.css" />
@@ -136,7 +137,7 @@
 	<div class="wrapper">
 		<div class="intro" id="intro">
 			<div class="intro-image">
-				<img src="css/images/temp/intro-img.jpg" height="626" width="1920" alt="" />
+				<img src="css/images/intro-img.jpg" height="626" width="1920" alt="" />
 			</div><!-- /.intro-image -->
 
 			<div class="container">
@@ -257,7 +258,7 @@
 								</div><!-- /.section-download-content -->
 
 								<div class="section-download-actions">
-									<a href="scout_install.html" class="btn btn-default btn-windows">Follow the Instructions</a>
+									<a href="popup.php?doc=install" class="btn btn-default btn-windows">Follow the Instructions</a>
 								</div><!-- /.section-download-actions -->
 							</div><!-- /.col-md-6 -->
 						</div><!-- /.row -->
@@ -285,7 +286,7 @@
 								</div><!-- /.section-tutorials-content -->
 
 								<div class="section-tutorials-actions">
-									<a href="scout_helloworld.html" class="btn btn-default btn-helloworld">Do the &quot;Hello World!&quot;</a>
+									<a href="popup.php?doc=helloworld" class="btn btn-default btn-helloworld">Do the &quot;Hello World!&quot;</a>
 								</div><!-- /.section-tutorials-actions -->
 							</div><!-- /.col-md-5 -->
 						</div><!-- /.row -->
@@ -506,7 +507,7 @@
 
 									<div class="author">
 										<div class="author-image">
-											<img src="css/images/temp/nils.png" height="56" width="56" alt="" />
+											<img src="images/nils.png" height="56" width="56" alt="" />
 										</div><!-- /.author-image -->
 
 										<div class="author-content">
@@ -526,7 +527,7 @@
 
 									<div class="author">
 										<div class="author-image">
-											<img src="css/images/temp/bertin.png" height="56" width="56" alt="" />
+											<img src="images/bertin.png" height="56" width="56" alt="" />
 										</div>
 
 										<div class="author-content">
@@ -550,7 +551,7 @@
 
 									<div class="author">
 										<div class="author-image">
-											<img src="css/images/temp/mike.png" height="56" width="56" alt="" />
+											<img src="images/mike.png" height="56" width="56" alt="" />
 										</div>
 
 										<div class="author-content">

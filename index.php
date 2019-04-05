@@ -5,6 +5,7 @@
 	<meta charset="UTF-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="author" content="BSI Business System Integration AG">
+	<meta name="google-site-verification" content="J-7cYyOUYKHxIfQmk37bLwyRjR3kxtVWnYfiUgIV9FE" />
 	<link rel="shortcut icon" href="css/images/favicon.ico" />
 	<link rel="stylesheet" href="css/bootstrap.min.css" />
 	<link rel="stylesheet" href="css/fonts.css" />

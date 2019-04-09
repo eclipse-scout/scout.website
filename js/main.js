@@ -119,52 +119,34 @@
 
 		function scrollToContactForm() {
 			setTimeout(function(){
-
 				$wrapper.animate({scrollTop: $wrapper.scrollTop() + $('#contact-us').position().top - 76});
-
 			}, 200)
-
 			$win.scrollTop(0)
 		};
 
-		$('.popup-link').magnificPopup({
-			type: 'iframe',
-			mainClass: 'mfp-fade',
-			removalDelay: 160,
-			preloader: false,
-
-			fixedContentPos: false
-		});
+		var screenWidth = $(window).width();
+		var screenHeight = $(window).height();
+		var smallScreen = screenWidth <= 767;
+		var popupWidth = smallScreen ? '100%' : '90%';
+		var popupHeight = smallScreen ? (screenHeight - 30 + 'px') : '90%';
 		
-		$(".btn-windows").colorbox({
+		$(".btn-download").colorbox({
 			maxWidth: 1400,
 			maxHeight: '90%',
-			width: "90%",
-			height: "90%"
+			width: popupWidth,
+			height: popupHeight
 		});
 		
 		$(".btn-helloworld").colorbox({
 			maxWidth: 1400,
 			maxHeight: '90%',
-			width: "90%",
-			height: "90%"
+			width: popupWidth,
+			height: popupHeight
 		});
 		
-		$(".btn-gallery").colorbox({
-			maxWidth: 1400,
-			maxHeight: '90%',
-			width: "90%",
-			rel: "gallery",
-			title: function() {
-				var a_name = $(this).attr('data-title');
-				var a_desc = $(this).attr('data-description');
-				return '<p style="font-size: 1.2em; font-weight: bold;" >' + a_name + '</p> ' + a_desc;
-			}
-		});
-
 		// Section Download - Buttons Functionality
 		if (navigator.appVersion.indexOf("Win")!=-1) {
-			$('.btn-windows').addClass('current').parent().find('.btn').not('.btn-windows').css("display", "none");
+			$('.btn-download').addClass('current').parent().find('.btn').not('.btn-download').css("display", "none");
 		};
 
 		if (navigator.appVersion.indexOf("Mac")!=-1) {

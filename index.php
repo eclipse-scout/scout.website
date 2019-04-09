@@ -1,4 +1,18 @@
-<!DOCTYPE html>
+<?php
+$BENEFITS = [
+  'sustainable-investment' => 'Sustainability and long-term thinking are in Scout’s genes. Over 15 years Scout has evolved into the mature and versatile ' .
+	    'web framework it is today. And the open source community around Scout is growing since 2009. This makes Scout a perfect choice for your ' .
+			'business-critical applications.',
+  'increase-productivity' => 'Scout covers many recurring requirements such as user authentication, client server communication, data binding and building rich ' . 
+	    'user interfaces. This allows the application developer to spend more time on understanding and implementing business cases.',
+  'time-to-market' => 'Scout is simple to learn, offers free access to many resources and increases developer productivity. And backed by commercial support, ' . 
+	    'Scout can help your team to meet demanding deadlines.',
+  'simple-to-learn' => 'Thanks to the tooling support and the available documentation Scout is simple to learn. Java and JavaScript developers can expect ' . 
+	    'to get started within a few days.',
+  'open-source' => 'The Scout framework is open source software and free to use for both personal and commercial projects. At the same time, Scout profits from ' . 
+	    'the world-class IP management enforced in all Eclipse projects.'
+];
+?><!DOCTYPE html>
 <html lang="en">
 <head>
 	<title>Eclipse Scout</title>
@@ -259,7 +273,7 @@
 								</div><!-- /.section-download-content -->
 
 								<div class="section-download-actions">
-									<a href="popup.php?doc=install" class="btn btn-default btn-windows">Follow the Instructions</a>
+									<a href="popup.php?doc=install" class="btn btn-default btn-download">Follow the Instructions</a>
 								</div><!-- /.section-download-actions -->
 							</div><!-- /.col-md-6 -->
 						</div><!-- /.row -->
@@ -293,7 +307,7 @@
 						</div><!-- /.row -->
 					</div><!-- /.container -->
 				</section><!-- /.section-tutorials -->
-
+			
 				<section class="section-benefits">
 					<div class="container">
 						<div class="row">
@@ -311,7 +325,7 @@
 								</div><!-- /.benefit-head -->
 
 								<div class="benefit-entry sustainable-investment">
-									<p>Sustainability and long-term thinking are in Scout’s genes. Over 10 years, Scout has evolved into the mature and versatile framework it is today. And the open source communit around Scout is growing since 2009. This makes Scout a perfect choice for your business-critical applications.</p>
+									<p><?php echo $BENEFITS['sustainable-investment']; ?></p>
 								</div><!-- /.benefit-entry -->
 							</div>
 
@@ -325,7 +339,7 @@
 								</div><!-- /.benefit-head -->
 
 								<div class="benefit-entry increase-productivity">
-									<p>Scout covers many recurring requirements such as user authentication,client server communication, data binding and building rich user interfaces. This allows the application developer to spend more time on understanding and implementing business cases. </p>
+									<p><?php echo $BENEFITS['increase-productivity']; ?></p>
 								</div><!-- /.benefit-entry -->
 							</div>
 
@@ -339,7 +353,7 @@
 								</div><!-- /.benefit-head -->
 
 								<div class="benefit-entry time-to-market">
-									<p>Scout is simple to learn, offers free access to many resources and increases developer productivity. And backed by commercial support, Scout can help your team to meet demanding deadlines. </p>
+									<p><?php echo $BENEFITS['time-to-market']; ?></p>
 								</div><!-- /.benefit-entry -->
 							</div>
 
@@ -353,7 +367,7 @@
 								</div><!-- /.benefit-head -->
 
 								<div class="benefit-entry simple-to-learn">
-									<p>Thanks to the tooling support and the available documentation Scout is simple to learn. Java developers can expect to get started within a few days. </p>
+									<p><?php echo $BENEFITS['simple-to-learn']; ?></p>
 								</div><!-- /.benefit-entry -->
 							</div>
 
@@ -367,30 +381,30 @@
 								</div><!-- /.benefit-head -->
 
 								<div class="benefit-entry open-source">
-									<p>The Scout framework is open source software and free to use for both pesonal and commercial projects. At the same time, Scout profits from the world-class IP management enforced in all Eclipse projects. </p>
+									<p><?php echo $BENEFITS['open-source']; ?></p>
 								</div><!-- /.benefit-entry -->
 							</div>
 						</div>
 
 						<div class="benefit-entries">
 							<div class="benefit-entry sustainable-investment">
-								<p>Sustainability and long-term thinking are in Scout’s genes. Over 15 years, Scout has evolved into the mature and versatile framework it is today. The open source communit around Scout is growing since 2009. This makes Scout a perfect choice for your business-critical applications.</p>
-							</div><!-- /.benefit-entry -->
-
-							<div class="benefit-entry open-source">
-								<p>The Scout framework is open source software and free to use for both pesonal and commercial projects. At the same time, Scout profits from the world-class IP management provided by the Eclipse foundation. </p>
+								<p><?php echo $BENEFITS['sustainable-investment']; ?></p>
 							</div><!-- /.benefit-entry -->
 
 							<div class="benefit-entry increase-productivity">
-								<p>Scout covers many recurring requirements such as user authentication, client server communication, data binding and building rich user interfaces. This allows the application developer to spend more time on understanding and implementing business cases. </p>
+								<p><?php echo $BENEFITS['increase-productivity']; ?></p>
 							</div><!-- /.benefit-entry -->
 
 							<div class="benefit-entry time-to-market">
-								<p>Scout is simple to learn, offers free access to many resources and increases developer productivity. Backed by commercial support, the Scout framework can help your team to meet demanding deadlines. </p>
+								<p><?php echo $BENEFITS['time-to-market']; ?></p>
 							</div><!-- /.benefit-entry -->
 
 							<div class="benefit-entry simple-to-learn">
-								<p>Thanks to its plain Java/HTML5 technology stack and the available documentation Scout is simple to learn. Java developers can expect to get started within a few days. </p>
+								<p><?php echo $BENEFITS['simple-to-learn']; ?></p>
+							</div><!-- /.benefit-entry -->
+
+							<div class="benefit-entry open-source">
+								<p><?php echo $BENEFITS['open-source']; ?></p>
 							</div><!-- /.benefit-entry -->
 						</div><!-- /.benefit-entries -->
 					</div><!-- /.container -->

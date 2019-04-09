@@ -51,7 +51,7 @@
         #cboxCurrent{position:absolute; bottom:0px; left:0px; text-align:center; width:100%; color:#999;}
 		#cboxTitle{
 			position:absolute; bottom:0px; left:0;
-		    text-align:justify;
+		  text-align:justify;
 			margin-bottom:24px;
 			padding-top:5px;
 			padding-bottom:15px;

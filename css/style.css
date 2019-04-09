@@ -374,6 +374,35 @@ ol { list-style-position: inside; }
 .form-success { color: #faa635; }
 
 /* ==========================================================================
+	#Popups
+========================================================================== */
+#cboxLoadedContent {
+	display: flex;
+	flex-direction: column;
+}
+
+#cboxClose {
+	margin-right: 15px;
+	color: #5d5d5d;
+}
+
+.popup-title {
+	color: #0082a1;
+	margin: 0;
+	margin-bottom: 8px;
+	flex-grow: 1;
+}
+
+.popup-iframe {
+  width: 100%;
+  flex-grow: 99;
+}
+
+iframe {
+  border: solid #5d5d5d 2px;
+}
+
+/* ==========================================================================
 	#Footer
 ========================================================================== */
 .footer { padding: 35px 0 31px;background: #0082a1; }
@@ -452,6 +481,9 @@ ol { list-style-position: inside; }
 
 @media (max-width: 767px) {
   #cboxTitle { visibility: hidden; }
+	#cboxLoadedContent { padding: 5px; }
+	#cboxClose { margin-right: 5px; }
+	
 	.demo-btn-mobile { visibility: hidden; }
 	.nav-mobile { display: block; }
 	.lnk-footer { font-size: 14px; }
@@ -501,39 +533,10 @@ ol { list-style-position: inside; }
 	.section-testimonials { padding-bottom: 20px }
 
 	.footer ul { padding-bottom: 20px; }
-
-	.footer-bar { padding: 10px; }
+  .footer-bar { padding: 10px; }
 	.footer-bar-logo { float: left; display: block; }
-	
 	.footer { padding: 10px; }
 }
 
-/* ==========================================================================
-	#Popups
-========================================================================== */
-#cboxLoadedContent {
-	display: flex;
-	flex-direction: column;
-}
 
-#cboxClose {
-	margin-right: 15px;
-	color: #5d5d5d;
-}
-
-.popup-title {
-	color: #0082a1;
-	margin: 0;
-	margin-bottom: 8px;
-	flex-grow: 1;
-}
-
-.popup-iframe {
-  width: 100%;
-  flex-grow: 99;
-}
-
-iframe {
-  border: solid #5d5d5d 2px;
-}
 

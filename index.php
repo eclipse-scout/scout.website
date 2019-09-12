@@ -12,6 +12,8 @@ $BENEFITS = [
   'open-source' => 'The Scout framework is open source software and free to use for both personal and commercial projects. At the same time, Scout profits from ' . 
 	    'the world-class IP management enforced in all Eclipse projects.'
 ];
+$URL_STACK_OVERFLOW = 'https://stackoverflow.com/tags/eclipse-scout';
+$URL_SCOUT_FORUM = 'https://www.eclipse.org/forums/index.php?t=thread&frm_id=174';
 ?><!DOCTYPE html>
 <html lang="en">
 <head>
@@ -63,8 +65,8 @@ $BENEFITS = [
 				<a href="#">Community</a>
 
 				<ul>
-					<li><a target="_blank" href="https://www.eclipse.org/forums/index.php?t=thread&frm_id=174">Eclipse Scout Forum</a></li>
-                    <li><a target="_blank" href="https://stackoverflow.com/tags/eclipse-scout">Stack Overflow</a></li>
+					<li><a target="_blank" href="<?php echo $URL_SCOUT_FORUM; ?>">Eclipse Scout Forum</a></li>
+                    <li><a target="_blank" href="<?php echo $URL_STACK_OVERFLOW; ?>">Stack Overflow</a></li>
 					<li><a target="_blank" href="https://github.com/eclipse/scout.rt">View Source on GitHub</a></li>
 					<li><a target="_blank" href="https://bugs.eclipse.org/bugs/buglist.cgi?bug_status=UNCONFIRMED&bug_status=NEW&bug_status=ASSIGNED&bug_status=REOPENED&bug_status=RESOLVED&bug_status=VERIFIED&columnlist=bug_id%2Cbug_severity%2Cpriority%2Ctarget_milestone%2Cbug_status%2Cresolution%2Ccomponent%2Cassigned_to%2Cshort_desc&list_id=10272285&product=Scout&query_format=advanced">
 						View Open Bugs</a></li>
@@ -127,8 +129,8 @@ $BENEFITS = [
 						<a href="#" >Community</a>
 
 						<ul class="dropdown-menu" role="menu">
-							<li><a target="_blank" href="https://www.eclipse.org/forums/index.php?t=thread&frm_id=174">Eclipse Scout Forum</a></li>
-						    <li><a target="_blank" href="https://stackoverflow.com/tags/eclipse-scout">Stack Overflow</a></li>
+							<li><a target="_blank" href="<?php echo $URL_SCOUT_FORUM; ?>">Eclipse Scout Forum</a></li>
+						    <li><a target="_blank" href="<?php echo $URL_STACK_OVERFLOW; ?>">Stack Overflow</a></li>
  					        <li><a target="_blank" href="https://github.com/eclipse/scout.rt">View Source on GitHub</a></li>
 							<li><a target="_blank" href="https://bugs.eclipse.org/bugs/buglist.cgi?bug_status=UNCONFIRMED&bug_status=NEW&bug_status=ASSIGNED&bug_status=REOPENED&bug_status=RESOLVED&bug_status=VERIFIED&columnlist=bug_id%2Cbug_severity%2Cpriority%2Ctarget_milestone%2Cbug_status%2Cresolution%2Ccomponent%2Cassigned_to%2Cshort_desc&list_id=10272285&product=Scout&query_format=advanced">
 								View Open Bugs</a></li>
@@ -590,7 +592,9 @@ $BENEFITS = [
 										<div class="form-head">
 											<h3>Ask a Question</h3>
 
-											<p>We can help. Tell us about your project and we'll get in touch.</p>
+											<p>We can help. Tell us about your project and we'll get in touch.
+											For technical questions please use the <a target="_blank" href="<?php echo $URL_STACK_OVERFLOW; ?>">Scout Forum</a> 
+											or <a target="_blank" href="<?php echo $URL_STACK_OVERFLOW; ?>">Stack Overflow</a>.</p>
 											<p class="form-success" id="scroll"></p><!-- /.form-errors -->
 											<p class="form-errors"></p><!-- /.form-errors -->
 										</div><!-- /.form-head -->
@@ -618,20 +622,6 @@ $BENEFITS = [
 												<textarea name="message" id="message" cols="30" rows="10" placeholder="Message" class="textarea form-control"></textarea>
 											</div><!-- /.form-row -->
 
-											<!--
-											<div class="form-row">
-												<div class="form-controls">
-													<div class="checkbox custom-checkbox">
-														<input type="checkbox" name="newsletter" id="newsletter" checked="YES" />
-
-														<label for="newsletter" class="form-label">
-															<span class="custom-checkbox-fake"></span>
-															I wish to receive the quarterly Scout NEWSLETTER
-														</label>
-													</div>
-												</div>
-											</div>
-											-->
 										</div><!-- /.form-body -->
 
 										<div class="form-actions">

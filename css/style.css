@@ -82,6 +82,9 @@ ol { list-style-position: inside; }
 .navbar-default .navbar-nav  li a { color: #fff; }
 .navbar-default .navbar-nav  li a:hover { color: #faa635; }
 
+/* prevent top-level nav-item text from disappearing on dark background-image */
+.navbar-default.affix-top .navbar-nav > li > a:focus { color: #faa635; outline: none; }
+
 /* woud be nice to have dark transparent menu background when menu is displayed over header image, and white background otherwise
 .nav .dropdown:hover { background-color: rgba(96,96,96,0.8); display: block; border-top-left-radius: 5px; border-top-right-radius: 5px; }
 */ 
@@ -111,6 +114,9 @@ ol { list-style-position: inside; }
 .nav-mobile a:hover { text-decoration: none; background: #e39731; }
 .nav-mobile ul ul a { padding: 10px 15px; }
 .nav-mobile > ul > li > a { font-size: 20px; }
+
+/* better distinct top- and sub-level navigation items in mobile mode */
+.nav-mobile > ul > li.dropdown > a { color: #585858; background-color: #e39731; cursor: none; pointer-events: none;  }
 
 /* ==========================================================================
 	#Intro
@@ -345,6 +351,10 @@ ol { list-style-position: inside; }
 	#Section Contact
 ========================================================================== */
 .section-contact { padding: 36px 0 74px; background: #5d5d5d; }
+
+.form-head > p { line-height: 1.4; text-align: justify; }
+.form-head > p > a { color: white; text-decoration: underline; }
+
 .form-contact .form-head { margin-bottom: 20px; text-align: center; }
 .form-contact h3 { margin-bottom: 3px; font-family: 'Dax-Regular', sans-serif; font-size: 45px; color: #fff; }
 .form-contact h3 span { color: #fe9915; font-weight: bold; }

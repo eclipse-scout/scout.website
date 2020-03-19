@@ -1,5 +1,5 @@
 <?php
-const DOC_BASE_URL = 'https://eclipsescout.github.io/9.0/';
+const DOC_BASE_URL = 'https://eclipsescout.github.io/10.0/';
 
 $title = null;
 $url = null;

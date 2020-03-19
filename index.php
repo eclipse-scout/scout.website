@@ -3,13 +3,13 @@ $BENEFITS = [
   'sustainable-investment' => 'Sustainability and long-term thinking are in Scout’s genes. Over 15 years Scout has evolved into the mature and versatile ' .
 	    'web framework it is today. And the open source community around Scout is growing since 2009. This makes Scout a perfect choice for your ' .
 			'business-critical applications.',
-  'increase-productivity' => 'Scout covers many recurring requirements such as user authentication, client server communication, data binding and building rich ' . 
+  'increase-productivity' => 'Scout covers many recurring requirements such as user authentication, client server communication, data binding and building rich ' .
 	    'user interfaces. This allows the application developer to spend more time on understanding and implementing business cases.',
-  'time-to-market' => 'Scout is simple to learn, offers free access to many resources and increases developer productivity. And backed by commercial support, ' . 
+  'time-to-market' => 'Scout is simple to learn, offers free access to many resources and increases developer productivity. And backed by commercial support, ' .
 	    'Scout can help your team to meet demanding deadlines.',
-  'simple-to-learn' => 'Thanks to the tooling support and the available documentation Scout is simple to learn. Java and JavaScript developers can expect ' . 
+  'simple-to-learn' => 'Thanks to the tooling support and the available documentation Scout is simple to learn. Java and JavaScript developers can expect ' .
 	    'to get started within a few days.',
-  'open-source' => 'The Scout framework is open source software and free to use for both personal and commercial projects. At the same time, Scout profits from ' . 
+  'open-source' => 'The Scout framework is open source software and free to use for both personal and commercial projects. At the same time, Scout profits from ' .
 	    'the world-class IP management enforced in all Eclipse projects.'
 ];
 $URL_STACK_OVERFLOW = 'https://stackoverflow.com/tags/eclipse-scout';
@@ -52,11 +52,11 @@ $URL_SCOUT_FORUM = 'https://www.eclipse.org/forums/index.php?t=thread&frm_id=174
 				<a href="#">Documentation</a>
 
 				<ul>
-					<li><a target="_blank" href="https://eclipsescout.github.io/9.0/beginners-guide.html">Beginner's Guide</a></li>
-					<li><a target="_blank" href="https://eclipsescout.github.io/9.0/technical-guide.html">Technical Guide</a></li>
-					<li><a target="_blank" href="https://eclipsescout.github.io/9.0/technical-guide-js.html">Technical Guide for Scout JS</a></li>
-					<li><a target="_blank" href="https://eclipsescout.github.io/9.0/release-notes.html">Release Notes</a></li>
-				    <li><a target="_blank" href="https://eclipsescout.github.io/9.0/migration-guide.html">Migration Guide</a></li>
+					<li><a target="_blank" href="https://eclipsescout.github.io/10.0/beginners-guide.html">Beginner's Guide</a></li>
+					<li><a target="_blank" href="https://eclipsescout.github.io/10.0/technical-guide.html">Technical Guide</a></li>
+					<li><a target="_blank" href="https://eclipsescout.github.io/10.0/technical-guide-js.html">Technical Guide for Scout JS</a></li>
+					<li><a target="_blank" href="https://eclipsescout.github.io/10.0/release-notes.html">Release Notes</a></li>
+				    <li><a target="_blank" href="https://eclipsescout.github.io/10.0/migration-guide.html">Migration Guide</a></li>
 					<li><a target="_blank" href="https://eclipsescout.github.io/">All Documentation</a></li>
 				</ul>
 			</li>
@@ -116,11 +116,11 @@ $URL_SCOUT_FORUM = 'https://www.eclipse.org/forums/index.php?t=thread&frm_id=174
 						<a href="#" >Documentation</a>
 
 						<ul class="dropdown-menu" role="menu">
-							<li><a target="_blank" href="https://eclipsescout.github.io/9.0/beginners-guide.html">Beginner's Guide</a></li>
-							<li><a target="_blank" href="https://eclipsescout.github.io/9.0/technical-guide.html">Technical Guide</a></li>
-							<li><a target="_blank" href="https://eclipsescout.github.io/9.0/technical-guide-js.html">Technical Guide for Scout JS</a></li>
-							<li><a target="_blank" href="https://eclipsescout.github.io/9.0/release-notes.html">Release Notes</a></li>
-						    <li><a target="_blank" href="https://eclipsescout.github.io/9.0/migration-guide.html">Migration Guide</a></li>
+							<li><a target="_blank" href="https://eclipsescout.github.io/10.0/beginners-guide.html">Beginner's Guide</a></li>
+							<li><a target="_blank" href="https://eclipsescout.github.io/10.0/technical-guide.html">Technical Guide</a></li>
+							<li><a target="_blank" href="https://eclipsescout.github.io/10.0/technical-guide-js.html">Technical Guide for Scout JS</a></li>
+							<li><a target="_blank" href="https://eclipsescout.github.io/10.0/release-notes.html">Release Notes</a></li>
+						    <li><a target="_blank" href="https://eclipsescout.github.io/10.0/migration-guide.html">Migration Guide</a></li>
 							<li><a target="_blank" href="https://eclipsescout.github.io/">All Documentation</a></li>
 						</ul>
 					</li>
@@ -168,10 +168,9 @@ $URL_SCOUT_FORUM = 'https://www.eclipse.org/forums/index.php?t=thread&frm_id=174
 							</div><!-- /.intro-content -->
 
 						  <div class="latest-version-box">
-						    <div class="latest-version-title">Release 9.0</div>
-                            <div class="latest-version-body">		    
-                              is the current stable version<br/>
-                              <a target="_blank" href="https://eclipsescout.github.io/9.0/release-notes.html" class="latest-version-link" title="Release Notes">What's new?</a> | 
+						    <div class="latest-version-title">Release 10.0 is out!</div>
+                            <div class="latest-version-body">
+                              <a target="_blank" href="https://eclipsescout.github.io/10.0/release-notes.html" class="latest-version-link" title="Release Notes">What's new?</a> |
                               <a href="#section-download" class="slide-to-section latest-version-link">Download</a>
 							</div>
                           </div>
@@ -309,7 +308,7 @@ $URL_SCOUT_FORUM = 'https://www.eclipse.org/forums/index.php?t=thread&frm_id=174
 						</div><!-- /.row -->
 					</div><!-- /.container -->
 				</section><!-- /.section-tutorials -->
-			
+
 				<section class="section-benefits">
 					<div class="container">
 						<div class="row">
@@ -593,7 +592,7 @@ $URL_SCOUT_FORUM = 'https://www.eclipse.org/forums/index.php?t=thread&frm_id=174
 											<h3>Ask a Question</h3>
 
 											<p>We can help. Tell us about your project and we'll get in touch.
-											For technical questions please use the <a target="_blank" href="<?php echo $URL_STACK_OVERFLOW; ?>">Scout Forum</a> 
+											For technical questions please use the <a target="_blank" href="<?php echo $URL_STACK_OVERFLOW; ?>">Scout Forum</a>
 											or <a target="_blank" href="<?php echo $URL_STACK_OVERFLOW; ?>">Stack Overflow</a>.</p>
 											<p class="form-success" id="scroll"></p><!-- /.form-errors -->
 											<p class="form-errors"></p><!-- /.form-errors -->

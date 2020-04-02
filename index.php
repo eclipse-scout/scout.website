@@ -592,7 +592,7 @@ $URL_SCOUT_FORUM = 'https://www.eclipse.org/forums/index.php?t=thread&frm_id=174
 											<h3>Ask a Question</h3>
 
 											<p>We can help. Tell us about your project and we'll get in touch.
-											For technical questions please use the <a target="_blank" href="<?php echo $URL_STACK_OVERFLOW; ?>">Scout Forum</a>
+											For technical questions please use the <a target="_blank" href="<?php echo $URL_SCOUT_FORUM; ?>">Scout Forum</a>
 											or <a target="_blank" href="<?php echo $URL_STACK_OVERFLOW; ?>">Stack Overflow</a>.</p>
 											<p class="form-success" id="scroll"></p><!-- /.form-errors -->
 											<p class="form-errors"></p><!-- /.form-errors -->

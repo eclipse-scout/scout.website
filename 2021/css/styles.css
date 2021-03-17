@@ -808,6 +808,9 @@ footer #eclipse-navigation-bar > a {
   text-align: center;
   margin: 35px 0;
 }
+#older-versions-info > a {
+  color: #014786;
+}
 #older-versions-info > a:visited {
   color: #014786;
 }

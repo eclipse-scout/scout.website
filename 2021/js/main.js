@@ -45,7 +45,7 @@ function navigateToGetStarted() {
       behavior: 'smooth'
     });
   } else {
-    document.location = '/#getting-started-java';
+    document.location = './#getting-started-java';
   }
 }
 

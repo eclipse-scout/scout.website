@@ -232,9 +232,6 @@ header {
 #icon-git-hub::before {
   background-image: url('../img/regular/developer-community-github-1.svg');
 }
-#icon-bugzilla::before {
-  background-image: url('../img/regular/computer-bug.svg');
-}
 .navigation-item-container {
   display: inline-block;
 }

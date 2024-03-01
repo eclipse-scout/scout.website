@@ -1,3 +1,5 @@
+"use strict";
+
 /*
  * Copyright (c) 2010, 2023 BSI Business Systems Integration AG
  *
@@ -7,8 +9,6 @@
  *
  * SPDX-License-Identifier: EPL-2.0
  */
-"use strict";
-
 var TOOLTIP_MIN_MARGIN = 10;
 var TEXTS = {
   'scout.js': 'Scout JS applications are written in JavaScript and run in the browser.' + ' An application server is optional.',

@@ -227,10 +227,6 @@ header {
 .navigation-item.lv2:hover .text {
   color: #FE9915;
 }
-#icon-eclipse-scout-forum::before {
-  background-image: url('../img/regular/conversation-question-warning-1.svg');
-  fill: currentColor;
-}
 #icon-stack-overflow::before {
   background-image: url('../img/regular/developer-community-stack-overflow.svg');
 }

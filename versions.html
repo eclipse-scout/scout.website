@@ -53,13 +53,13 @@
         <a href="./" id="eclipse-scout-logo"><div class="logo"></div><div class="text"></div></a>
 
       <nav id="main-navigation">
-        <div class="navigation-item lv1 first"><a href="https://eclipsescout.github.io/scout-docs/24.2/getstarted/getstarted.html" class="text"
+        <div class="navigation-item lv1 first"><a href="https://eclipsescout.github.io/scout-docs/25.1/getstarted/getstarted.html" class="text"
              title="Get started with Eclipse Scout">Tutorial</a></div>
         <div class="navigation-item lv1"><a href="https://eclipsescout.github.io/" class="text">Docs</a></div>
         <div class="navigation-item lv1 has-children">
           <div class="text">Community</div>
           <div class="navigation-lv2-panel hidden">
-            <a href="https://github.com/eclipse-scout/scout.rt/tree/releases/24.2/" class="navigation-item lv2 first" id="icon-git-hub">
+            <a href="https://github.com/eclipse-scout/scout.rt/tree/releases/25.1/" class="navigation-item lv2 first" id="icon-git-hub">
               <div class="navigation-item-container">
                 <div class="title">GitHub</div>
                 <div class="text">Discuss topics. View code. Report issues</div>
@@ -79,11 +79,11 @@
         <div class="navigation-item lv1 mobile-only"><a href="javascript:onGetStartedLinkClick()" class="text">Get Started</a></div>
       </nav>
 
-      <a href="versions.html#v24" id="scout-version-button" class="desktop-only">
+      <a href="versions.html#v25" id="scout-version-button" class="desktop-only">
         <svg height="36" width="36" viewBox="0 0 36 36">
           <circle cx="18" cy="18" r="17" stroke="#014786" stroke-width="2" fill="white" />
         </svg>
-        <div>v24</div>
+        <div>v25</div>
       </a>
 
       <button id="get-started-button" class="desktop-only">Get Started</button>
@@ -112,13 +112,20 @@
 
 <div class="content-block first filler">
   <table class="content-table">
-     <tr>
-         <td class="first version-marker">latest</td>
-         <td class="version"><a id="v24.2">Version 24.2</a></td>
-         <td><a href="https://github.com/eclipse-scout/scout.rt/tree/releases/24.2">Sources</a></td>
-         <td><a href="https://eclipsescout.github.io/scout-docs/24.2/">Documentation</a></td>
-         <td class="last"><a href="https://eclipsescout.github.io/scout-docs/24.2/getstarted/getstarted.html">Get Started</a></td>
-     </tr>
+   <tr>
+       <td class="first version-marker">latest</td>
+       <td class="version"><a id="v25.1">Version 25.1</a></td>
+       <td><a href="https://github.com/eclipse-scout/scout.rt/tree/releases/25.1">Sources</a></td>
+       <td><a href="https://eclipsescout.github.io/scout-docs/25.1/">Documentation</a></td>
+       <td class="last"><a href="https://eclipsescout.github.io/scout-docs/25.1/getstarted/getstarted.html">Get Started</a></td>
+   </tr>
+   <tr>
+       <td class="first version-marker">lts</td>
+       <td class="version"><a id="v24.2">Version 24.2</a></td>
+       <td><a href="https://github.com/eclipse-scout/scout.rt/tree/releases/24.2">Sources</a></td>
+       <td><a href="https://eclipsescout.github.io/scout-docs/24.2/">Documentation</a></td>
+       <td class="last"><a href="https://eclipsescout.github.io/scout-docs/24.2/getstarted/getstarted.html">Get Started</a></td>
+   </tr>
    <tr>
        <td class="first"></td>
        <td class="version"><a id="v24.1">Version 24.1</a></td>
@@ -127,11 +134,25 @@
        <td class="last"><a href="https://eclipsescout.github.io/scout-docs/24.1/getstarted/getstarted.html">Get Started</a></td>
    </tr>
    <tr>
-       <td class="first"></td>
+       <td class="first version-marker">lts</td>
        <td class="version"><a id="v23.2">Version 23.2</a></td>
        <td><a href="https://github.com/eclipse-scout/scout.rt/tree/releases/23.2">Sources</a></td>
        <td><a href="https://eclipsescout.github.io/scout-docs/23.2/">Documentation</a></td>
        <td class="last"><a href="https://eclipsescout.github.io/scout-docs/23.2/getstarted/getstarted.html">Get Started</a></td>
+   </tr>
+   <tr>
+       <td class="first"></td>
+       <td class="version"><a id="v23.1">Version 23.1</a></td>
+       <td><a href="https://github.com/eclipse-scout/scout.rt/tree/releases/23.1">Sources</a></td>
+       <td><a href="https://eclipsescout.github.io/scout-docs/23.1/">Documentation</a></td>
+       <td class="last"><a href="https://eclipsescout.github.io/scout-docs/23.1/getstarted/getstarted.html">Get Started</a></td>
+   </tr>
+   <tr>
+       <td class="first"></td>
+       <td class="version"><a id="v22">Version 22</a></td>
+       <td><a href="https://github.com/eclipse-scout/scout.rt/tree/releases/22">Sources</a></td>
+       <td><a href="https://eclipsescout.github.io/scout-docs/22/">Documentation</a></td>
+       <td class="last"><a href="https://eclipsescout.github.io/scout-docs/22/getstarted/getstarted.html">Get Started</a></td>
    </tr>
   </table>
 
@@ -140,13 +161,30 @@
     See <a href="https://eclipsescout.github.io/">all Scout versions</a>.
   </div>
 
+  <div id="release-info">
+    <h3>Release Schedule and Support</h3>
+    <p>
+      Major Scout versions are released twice a year.
+      The first release of a year gets updates until the second release is published.
+      After that, the first release becomes unsupported.
+      The second release gets LTS status (long-term support) which means critical bugs will be fixed for about 2.5 years.
+    </p>
+
+    <h3>Versioning Scheme</h3>
+    <p>
+      The first number (major) of the version represents the year.
+      The second number (minor) represents the release within that year.
+      The third number (micro) is increased on every bug-fix update.
+    </p>
+  </div>
+
 </div>
 
       <!-- **** FOOTER **** -->
       <footer>
 
         <div id="social-media-bar">
-          <a href="https://github.com/eclipse-scout/scout.rt/tree/releases/24.2/" title="Eclipse Scout on GitHub"><img src="img/bold/developer-community-github-1.svg"></a>
+          <a href="https://github.com/eclipse-scout/scout.rt/tree/releases/25.1/" title="Eclipse Scout on GitHub"><img src="img/bold/developer-community-github-1.svg"></a>
           <a href="https://stackoverflow.com/tags/eclipse-scout" title="Eclipse Scout on StackOverflow"><img src="img/bold/developer-community-stack-overflow.svg"></a>
           <a href="https://projects.eclipse.org/projects/technology.scout" title="Eclipse Scout Project"><img src="img/eclipse-logo-notext.svg"></a>
         </div>

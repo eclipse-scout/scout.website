@@ -812,6 +812,20 @@ footer #eclipse-navigation-bar > a {
 #older-versions-info > a:visited {
   color: #014786;
 }
+#release-info {
+  text-align: center;
+}
+#release-info > h3 {
+  margin-top: 0;
+  font-weight: bold;
+  font-size: 22px;
+  color: #333;
+}
+#release-info > p {
+  font-size: 16px;
+  text-align: justify;
+  padding: 0 12.5%;
+}
 .version-marker {
   text-transform: uppercase;
   font-weight: bold;
@@ -1372,6 +1386,9 @@ footer #eclipse-navigation-bar > a {
   }
   .content-table td.version {
     font-weight: bold;
+  }
+  #release-info > p {
+    padding: 0;
   }
   #device-detection::before {
     content: 'mobile';

@@ -14,11 +14,11 @@ var TEXTS = {
   'scout.js': 'Scout JS applications are written in JavaScript and run in the browser.' + ' An application server is optional.',
   'scout.classic': 'Scout Classic applications are written in Java. They implement the client/server principle. The business logic' + ' runs on a Java application server.'
 };
-var hideAnimationListener = function hideAnimationListener(event) {
-  $(event.target).removeClass('animate-hide').addClass('hidden')[0].removeEventListener('animationend', hideAnimationListener);
+var _hideAnimationListener = function hideAnimationListener(event) {
+  $(event.target).removeClass('animate-hide').addClass('hidden')[0].removeEventListener('animationend', _hideAnimationListener);
 };
-var showAnimationListener = function showAnimationListener(event) {
-  $(event.target).removeClass('animate-show')[0].removeEventListener('animationend', showAnimationListener);
+var _showAnimationListener = function showAnimationListener(event) {
+  $(event.target).removeClass('animate-show')[0].removeEventListener('animationend', _showAnimationListener);
 };
 function onDemoAppButtonClick() {
   var $button = $(this);
@@ -36,8 +36,8 @@ function onDemoAppButtonClick() {
   if (!$divToHide.length) {
     return;
   }
-  $divToHide.addClass('animate-hide')[0].addEventListener('animationend', hideAnimationListener);
-  $divToShow.removeClass('hidden').addClass('animate-show')[0].addEventListener('animationend', showAnimationListener);
+  $divToHide.addClass('animate-hide')[0].addEventListener('animationend', _hideAnimationListener);
+  $divToShow.removeClass('hidden').addClass('animate-show')[0].addEventListener('animationend', _showAnimationListener);
 }
 function navigateToGetStarted() {
   var $panel = $('#getting-started-panel');
@@ -214,13 +214,13 @@ function onMobileNavigationClickOutside(event) {
   }
 }
 function hideMobileNavigation($navigation) {
-  var transitionListener = function transitionListener() {
-    $navigation[0].removeEventListener('transitionend', transitionListener);
+  var _transitionListener = function transitionListener() {
+    $navigation[0].removeEventListener('transitionend', _transitionListener);
     $navigation.removeClass('open');
   };
   var $body = $('body');
   var $navButton = $('#mobile-navigation-button');
-  $navigation[0].addEventListener('transitionend', transitionListener);
+  $navigation[0].addEventListener('transitionend', _transitionListener);
   $body.removeClass('fixed');
   $navButton.removeClass('open');
   $navigation.removeClass('navigation-slide-in');
